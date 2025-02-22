@@ -8,7 +8,7 @@ interface ArrowLeftDownProps {
 const ArrowLeftDown: React.FC<ArrowLeftDownProps> = ({
     color,
     className = '',
-    variants = 'fill',
+    variants = 'filled',
 }) => {
     const defaultColor = 'white';
     const fillColor = color || defaultColor;
