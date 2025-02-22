@@ -4,18 +4,20 @@ interface ArrowLeftProps {
     color?: string;
     className?: string;
     variants?: 'filled' | 'outlined';
+    size?: number;
 }
 const ArrowLeft: React.FC<ArrowLeftProps> = ({
     color,
     className = '',
     variants = 'filled',
+    size = 24,
 }) => {
     const defaultColor = 'white';
     const fillColor = color || defaultColor;
     return (
         <svg
-            width="24"
-            height="24"
+            width={size}
+            height={size}
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
