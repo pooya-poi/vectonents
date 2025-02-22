@@ -2,17 +2,17 @@
 
 
 [ ] Arrows-chevron
-[ ] Arrow-Down
-[ ]    Filled-1.svg
-[ ]    Filled.svg
-[ ]    Outlined-1.svg
-[ ]    Outlined.svg
-[ ] Arrow-Left
-[ ]    Filled.svg
-[ ]    Outlined.svg
-[ ] Arrow-Left-Down
-[ ]    Filled.svg
-[ ]   Outlined.svg
+[x] Arrow-Down
+[x]    Filled-1.svg
+[x]    Filled.svg
+[x]    Outlined-1.svg
+[x]    Outlined.svg
+[x] Arrow-Left
+[x]    Filled.svg
+[x]    Outlined.svg
+[x] Arrow-Left-Down
+[x]    Filled.svg
+[x]   Outlined.svg
 [ ] Arrow-Right
 [ ]    Filled.svg
 [ ]    Outlined.svg
