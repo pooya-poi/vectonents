@@ -6,8 +6,9 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
-    "clean": "rm -rf dist"
+    "bundle": "tsup",
+    "clean": "rm -rf dist",
+    "build": "node ./src/components/generator.js && pnpm run bundle"
   },
   "dependencies": {
     "react": "19.0.0"
