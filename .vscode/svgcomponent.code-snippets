@@ -12,7 +12,7 @@
             "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({",
             "    color,",
             "    className = '',",
-            "    variants = 'fill',",
+            "    variants = 'filled',",
             "}) => {",
             "    const defaultColor = 'white';",
             "    const fillColor = color || defaultColor;",
