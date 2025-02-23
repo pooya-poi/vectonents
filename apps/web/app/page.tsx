@@ -8,7 +8,8 @@ export default function Home() {
 
   const iconVariants: { [key: string]: string[] } = {
     ArrowDown: ['filled', 'outlined', 'filled-1', 'outlined-1'],
-    Settings: ['filled', 'outlined'],
+    AirpodCase: ['filled', 'outlined', 'filled-1', 'outlined-1'],
+    Speaker: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     User: ['filled', 'outlined', 'rounded'],
     // Add more icons and their variants as needed
   };
