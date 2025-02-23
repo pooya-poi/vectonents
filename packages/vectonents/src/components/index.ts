@@ -27,6 +27,8 @@ export { default as Shop } from "./Shop";
 export { default as ShopKeeper } from "./ShopKeeper";
 export { default as Shopping } from "./Shopping";
 export { default as ShoppingBag } from "./ShoppingBag";
+export { default as ShoppingCart } from "./ShoppingCart";
+export { default as ShoppingCartHandy } from "./ShoppingCartHandy";
 export { default as SquerArrowDownLeft } from "./SquerArrowDownLeft";
 export { default as SquerArrowDownRight } from "./SquerArrowDownRight";
 export { default as SquerArrowUpLeft } from "./SquerArrowUpLeft";
