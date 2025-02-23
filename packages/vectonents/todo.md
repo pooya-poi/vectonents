@@ -111,88 +111,82 @@
 [x] Filled.svg
 [x] Outlined.svg
 [x] devices
-[ ] Airpod
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Airpod-Case
-[ ]  Filled-1.svg
-[ ]  Filled.svg
-[ ]  Outlined-1.svg
-[ ]  Outlined.svg
-[ ] Battery
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Battery-Full
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Battery-low
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Battery-Medium
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] charging-battrey
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] CPU
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] flopy
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] gramophone
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] handy-game
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Homepod
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] iMac
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] iPad
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] iPhone
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] iPod
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] joystick
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Kaset-Drive
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Keypad
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Phone-PC
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Playstation
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Radio
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] SD-card
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Sim card
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Speaker
-[ ]  Filled-1.svg
-[ ]  Filled.svg
-[ ]  Outlined-1.svg
-[ ]  Outlined.svg
-[ ] Telephone
-[ ]  Filled.svg
-[ ]  Outlined.svg
+[x] Airpod
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Airpod-Case
+[x]  Filled-1.svg
+[x]  Filled.svg
+[x]  Outlined-1.svg
+[x]  Outlined.svg
+[x] Battery
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Battery-Full
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Battery-low
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Battery-Medium
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] charging-battrey
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] CPU
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] flopy
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] gramophone
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] handy-game
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] iMac
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] iPad
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] iPhone
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] iPod
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] joystick
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Keypad
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Phone-PC
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Playstation
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Radio
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] SD-card
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Sim card
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Speaker
+[x]  Filled-1.svg
+[x]  Filled.svg
+[x]  Outlined-1.svg
+[x]  Outlined.svg
+[x] Telephone
+[x]  Filled.svg
+[x]  Outlined.svg
 [ ] Tv
 [ ]  Filled.svg
 [ ]  Outlined.svg
