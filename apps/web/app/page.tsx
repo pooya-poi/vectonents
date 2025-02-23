@@ -10,6 +10,10 @@ export default function Home() {
     ArrowDown: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     AirpodCase: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     Speaker: ['filled', 'outlined', 'filled-1', 'outlined-1'],
+    Watch: ['filled', 'outlined', 'filled-r', 'outlined-r'],
+    Document: ['filled', 'filled-1', 'filled-2', 'filled-3', 'outlined', 'outlined-1', 'outlined-2', 'outlined-3'],
+    Brush: ['filled', 'filled-1', 'outlined', 'outlined-1'],
+    Crop: ['filled', 'filled-1', 'outlined', 'outlined-1'],
     User: ['filled', 'outlined', 'rounded'],
     // Add more icons and their variants as needed
   };
