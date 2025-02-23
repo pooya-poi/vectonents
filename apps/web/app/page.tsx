@@ -6,7 +6,7 @@ export default function Home() {
 
   const iconEntries = Object.entries(icons);
 
-  const iconVariants = {
+  const iconVariants: { [key: string]: string[] } = {
     ArrowDown: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     Settings: ['filled', 'outlined'],
     User: ['filled', 'outlined', 'rounded'],
@@ -28,7 +28,7 @@ export default function Home() {
               {variants.map((variant) => (
                 <div key={variant}>
                   <div style={{ marginBottom: '8px' }}>
-                    <IconComponent size={32} variants={variant} />
+                    <IconComponent size={32} variants={variant as 'filled' | 'outlined'} />
                   </div>
                   <div style={{ fontSize: '12px', color: '#666' }}>{variant}</div>
                 </div>
