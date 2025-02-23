@@ -2,67 +2,41 @@ import { ArrowDown, ArrowLeft, ArrowRight } from "@pooya-poi/vectonents";
 // import styles from "./page.module.css";
 import * as icons from "@pooya-poi/vectonents";
 
-
 export default function Home() {
-  // const variants = ["filled", "outlined", "filled-1", "outlined-1", null]; 
-  const variants = ["filled", "outlined"];
-  const iconNames = Object.keys(icons);
+
+  const iconEntries = Object.entries(icons);
+
+  const iconVariants = {
+    ArrowDown: ['filled', 'outlined', 'filled-1', 'outlined-1'],
+    Settings: ['filled', 'outlined'],
+    User: ['filled', 'outlined', 'rounded'],
+    // Add more icons and their variants as needed
+  };
+
+
   return (
-    // <div className={styles.page}>
-    <div >
-      {/* <ArrowDown variants="filled" />
-      <ArrowDown variants="filled-1" />
-      <ArrowDown variants="outlined" />
-      <ArrowDown variants="outlined-1" />
-      <br />
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
+      {iconEntries.map(([name, IconComponent]) => {
+        // Get the variants for the current icon from the manual mapping
+        const variants = iconVariants[name] || ['filled', 'outlined']; // Fallback to default variants
 
-      <ArrowLeft variants="filled" />
-      <ArrowLeft variants="outlined" />
-
-      <ArrowLeftDown variants="filled" />
-      <ArrowLeftDown variants="outlined" />
-      <br />
-
-      <ArrowRight variants="filled" />
-      <ArrowRight variants="outlined" />
-      <br />
-
-      <ArrowRightUp variants="filled" />
-      <ArrowRightUp variants="outlined" />
-      <br />
-      <hr />
-      <ArrowRightLeft variants="filled" />
-      <ArrowRightLeft variants="outlined" />
-      <ArrowRightLeft />
-      <hr />
-      <ArrowUp />
-      <ArrowUp variants="filled" />
-      <ArrowUp variants="outlined" />
-      <hr />
-      <ArrowUpDown variants="filled" />
-      <ArrowUpDown variants="outlined" />
-      <hr />
-      <ArrowUpDownCorner variants="filled" />
-      <ArrowUpDownCorner variants="outlined" /> */}
-
-
-      {iconNames.map((iconName) => {
-        const IconComponent = icons[iconName];
         return (
-          <div key={iconName}>
-            <h3>{iconName}</h3>
-            {variants.map((variant, index) => (
-              <div key={index}>
-                <IconComponent variants={variant} />
-                <span>{variant || "default"}</span>
-              </div>
-            ))}
-            <br />
+          <div key={name} style={{ textAlign: 'center', border: '1px solid #ccc', padding: '16px', borderRadius: '8px' }}>
+            <h3 style={{ marginBottom: '16px', fontSize: '16px', color: '#333' }}>{name}</h3>
+            <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
+              {/* Render each variant */}
+              {variants.map((variant) => (
+                <div key={variant}>
+                  <div style={{ marginBottom: '8px' }}>
+                    <IconComponent size={32} variants={variant} />
+                  </div>
+                  <div style={{ fontSize: '12px', color: '#666' }}>{variant}</div>
+                </div>
+              ))}
+            </div>
           </div>
         );
       })}
-
-
     </div>
   );
 }
