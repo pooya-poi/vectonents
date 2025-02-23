@@ -187,101 +187,98 @@
 [x] Telephone
 [x]  Filled.svg
 [x]  Outlined.svg
-[ ] Tv
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] type C
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] USB
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] VR-Glasses
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] watch
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Watch
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] Documents
-[ ] Add-Document
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Broken-Document
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Copy-Document
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Document
-[ ]  Filled-1.svg
-[ ]  Filled-2.svg
-[ ]  Filled.svg
-[ ]  Outlined-1.svg
-[ ]  Outlined-2.svg
-[ ]  Outlined.svg
-[ ] Document-1-Copy
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Document-Edit
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Document-Fav
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Document-history
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Documents
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Document-secure
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Search-Document
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Shredder
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Sync-Document
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] Edit
-[ ] Add-anchor-point
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] Brush
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] Brush-1
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] Crop
-[ ]  Filled-1.svg
-[ ]  Filled.svg
-[ ]  outlined-1.svg
-[ ]  outlined.svg
-[ ] Edit
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Edit-anchor-point
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] Eraser
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] Layer
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] marker
-[ ]  Filled.svg
-[ ]  outlined.svg
-[ ] Remove-anchor-point
-[ ] Filled.svg
-[ ] outlined.svg
+[x] Tv
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] type C
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] USB
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] VR-Glasses
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] watch
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Watch
+[x] Filled.svg
+[x] Outlined.svg
+[x] Documents
+[x] Add-Document
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Broken-Document
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Copy-Document
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Document
+[x]  Filled-1.svg
+[x]  Filled-2.svg
+[x]  Filled.svg
+[x]  Outlined-1.svg
+[x]  Outlined-2.svg
+[x]  Outlined.svg
+[x] Document-1-Copy
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Document-Edit
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Document-Fav
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Document-history
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Documents
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Document-secure
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Search-Document
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Shredder
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Sync-Document
+[x] Filled.svg
+[x] Outlined.svg
+[x] Edit
+[x] Add-anchor-point
+[x]  Filled.svg
+[x]  outlined.svg
+[x] Brush
+[x]  Filled.svg
+[x]  outlined.svg
+[x] Brush-1
+[x]  Filled.svg
+[x]  outlined.svg
+[x] Crop
+[x]  Filled-1.svg
+[x]  Filled.svg
+[x]  outlined-1.svg
+[x]  outlined.svg
+[x] Edit
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Edit-anchor-point
+[x]  Filled.svg
+[x]  outlined.svg
+[x] Eraser
+[x]  Filled.svg
+[x]  outlined.svg
+[x] Layer
+[x]  Filled.svg
+[x]  outlined.svg
+[x] marker
+[x]  Filled.svg
+[x]  outlined.svg
 [ ] Folder
 [ ] edit-folder
 [ ]  Filled.svg
