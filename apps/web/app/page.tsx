@@ -8,6 +8,7 @@ export default function Home() {
 
   const iconVariants: { [key: string]: string[] } = {
     ArrowDown: ['filled', 'outlined', 'filled-1', 'outlined-1'],
+    Sort: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     AirpodCase: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     Speaker: ['filled', 'outlined', 'filled-1', 'outlined-1'],
     Watch: ['filled', 'outlined', 'filled-r', 'outlined-r'],
@@ -17,6 +18,7 @@ export default function Home() {
     Chat: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
     Filter: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
     Menu: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
+    Grid: ['filled', 'filled-1', 'filled-2', 'filled-3', 'filled-4', 'filled-5', 'filled-6', 'filled-7', 'outlined', 'outlined-1', 'outlined-2', 'outlined-3', 'outlined-4', 'outlined-5', 'outlined-6', 'outlined-7'],
 
     // Add more icons and their variants as needed
   };
