@@ -14,7 +14,10 @@ export default function Home() {
     Document: ['filled', 'filled-1', 'filled-2', 'filled-3', 'outlined', 'outlined-1', 'outlined-2', 'outlined-3'],
     Brush: ['filled', 'filled-1', 'outlined', 'outlined-1'],
     Crop: ['filled', 'filled-1', 'outlined', 'outlined-1'],
-    User: ['filled', 'outlined', 'rounded'],
+    Chat: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
+    Filter: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
+    Menu: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
+
     // Add more icons and their variants as needed
   };
 
