@@ -279,317 +279,317 @@
 [x] marker
 [x]  Filled.svg
 [x]  outlined.svg
-[ ] Folder
-[ ] edit-folder
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-Content
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-Details
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-information
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-locked
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-Marked
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-secure
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-Shared
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Folder-sync
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Multi-Folder
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] opened-Folder
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Remove-folder
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] Interface essential
-[ ] Activity
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Alarm
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] alert-octagon
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] alert-triangle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Anchor
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Archive
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Behance
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Bell
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Bluetooth
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Board
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Book
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Bookmark
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Calendar
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Camera
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Cast
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] chat
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Chat
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Chat-1
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Check
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Click
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Clip board
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Clock
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Close
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Close-rectangle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Command
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Compass
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Copy
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Credit-card
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Delete
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Disabled-Bell
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Download
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Dribbble
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] emai-1
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Email-2
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Email-notice
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Expand
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] External-link
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] eye
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Facebook
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Figma
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Filter
-[ ]  Filled-1.svg
-[ ]  Filled-2.svg
-[ ]  Filled.svg
-[ ]  Outlined-1.svg
-[ ]  Outlined-2.svg
-[ ]  Outlined.svg
-[ ] Flag
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Flame
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Google
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Heart
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Home
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Image
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Inbox
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Information
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Information-circle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Information-Rectangle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Instagram
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] instant
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Key
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Lamp
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Linkedin
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] List-caption
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Loader
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Location
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Lock
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Magnifier
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Menu-1
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Menu-3
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Menu-4
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Microphone
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] minimize
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Minus
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Minus-circle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Minus regtangle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Moon
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Move
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Mug
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Notebook
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Pen
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Pin
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Pluse
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Pluse ellipse
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Pluse regtangle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Receive
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Reply
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Retry-refresh
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] SandClock
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Send
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Setting
-[ ]  Filled-1.svg
-[ ]  Filled.svg
-[ ]  Outlined-1.svg
-[ ]  Outlined.svg
-[ ] Share
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Shield
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Signal
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Son
-[ ]  Filled.svg
-[ ]  Outlined.svg
+[x] Folder
+[x] edit-folder
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-Content
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-Details
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-information
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-locked
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-Marked
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-secure
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-Shared
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Folder-sync
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Multi-Folder
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] opened-Folder
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Remove-folder
+[x] Filled.svg
+[x] Outlined.svg
+[x] Interface essential
+[x] Activity
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Alarm
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] alert-octagon
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] alert-triangle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Anchor
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Archive
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Behance
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Bell
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Bluetooth
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Board
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Book
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Bookmark
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Calendar
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Camera
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Cast
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] chat
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Chat
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Chat-1
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Check
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Click
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Clip board
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Clock
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Close
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Close-rectangle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Command
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Compass
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Copy
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Credit-card
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Delete
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Disabled-Bell
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Download
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Dribbble
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] emai-1
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Email-2
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Email-notice
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Expand
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] External-link
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] eye
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Facebook
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Figma
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Filter
+[x]  Filled-1.svg
+[x]  Filled-2.svg
+[x]  Filled.svg
+[x]  Outlined-1.svg
+[x]  Outlined-2.svg
+[x]  Outlined.svg
+[x] Flag
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Flame
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Google
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Heart
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Home
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Image
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Inbox
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Information
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Information-circle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Information-Rectangle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Instagram
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] instant
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Key
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Lamp
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Linkedin
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] List-caption
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Loader
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Location
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Lock
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Magnifier
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Menu-1
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Menu-3
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Menu-4
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Microphone
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] minimize
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Minus
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Minus-circle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Minus regtangle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Moon
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Move
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Mug
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Notebook
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Pen
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Pin
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Pluse
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Pluse ellipse
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Pluse regtangle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Receive
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Reply
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Retry-refresh
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] SandClock
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Send
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Setting
+[x]  Filled-1.svg
+[x]  Filled.svg
+[x]  Outlined-1.svg
+[x]  Outlined.svg
+[x] Share
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Shield
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Signal
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Son
+[x]  Filled.svg
+[x]  Outlined.svg
 [ ] Sort
 [ ]  Filled-1.svg
 [ ]  Filled.svg
