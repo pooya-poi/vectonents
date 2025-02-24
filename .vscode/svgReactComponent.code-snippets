@@ -1,0 +1,28 @@
+{
+    "React SVG Component": {
+        "prefix": "svgReactcomponent",
+        "body": [
+            "import React from 'react';",
+            "",
+            "interface ${TM_FILENAME_BASE}Props {",
+            "    color?: string;",
+            "    className?: string;",
+            "    variants?: 'filled' | 'outlined' ;",
+            "    size?: number ;",
+            "}",
+            "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = ({",
+            "    color,",
+            "    className = '',",
+            "    variants = 'filled',",
+            "    size = 24,",
+            "}) => {",
+            "    const defaultColor = 'white';",
+            "    const fillColor = color || defaultColor;",
+            "    return (",
+
+            "    );",
+            "};",
+            "export default ${TM_FILENAME_BASE};"
+        ],
+	}
+}
