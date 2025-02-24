@@ -1,6 +1,6 @@
 {
   "name": "@pooya-poi/vectonents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A set of Svg icon components for React",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
