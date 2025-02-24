@@ -17,7 +17,7 @@
     "@types/react": "^19.0.10",
     "tsup": "^7.2.0",
     "typescript": "^5.4.0"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pooya-poi/vectonents"
