@@ -590,141 +590,141 @@
 [x] Son
 [x]  Filled.svg
 [x]  Outlined.svg
-[ ] Sort
-[ ]  Filled-1.svg
-[ ]  Filled.svg
-[ ]  Outlined-1.svg
-[ ]  Outlined.svg
-[ ] Space-Shuttle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Star
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Sticker
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Sync-retry
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Tag
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Trash
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Trending-down
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Trending-up
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] twitter
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Unavailable
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Unlock
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Wallet
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Wi-Fi
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] World
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Zap
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] Layout
-[ ] grid-1
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-2
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-3
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-4
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-5
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-6
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-7
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] grid-8
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] mouse and keyboard
-[ ] Keyboard
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Keyboard-Close
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Keyboard-Open
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Mouse
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] Music and sound Player
-[ ] Airplay
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] backwards
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Forward
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Music-note-1
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Next
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Pause-rectangle
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Play
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] PLay-pause
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] previous
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Volume
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Volume-Down
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Volume-Up
-[ ] Filled.svg
-[ ] Outlined.svg
-[ ] User
-[ ] Add-Person
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Group-person
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Person
-[ ]  Filled.svg
-[ ]  Outlined.svg
-[ ] Two-Person
-[ ] Filled.svg
-[ ] Outlined.svg
+[x] Sort
+[x]  Filled-1.svg
+[x]  Filled.svg
+[x]  Outlined-1.svg
+[x]  Outlined.svg
+[x] Space-Shuttle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Star
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Sticker
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Sync-retry
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Tag
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Trash
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Trending-down
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Trending-up
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] twitter
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Unavailable
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Unlock
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Wallet
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Wi-Fi
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] World
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Zap
+[x] Filled.svg
+[x] Outlined.svg
+[x] Layout
+[x] grid-1
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-2
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-3
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-4
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-5
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-6
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-7
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] grid-8
+[x] Filled.svg
+[x] Outlined.svg
+[x] mouse and keyboard
+[x] Keyboard
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Keyboard-Close
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Keyboard-Open
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Mouse
+[x] Filled.svg
+[x] Outlined.svg
+[x] Music and sound Player
+[x] Airplay
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] backwards
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Forward
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Music-note-1
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Next
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Pause-rectangle
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Play
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] PLay-pause
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] previous
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Volume
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Volume-Down
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Volume-Up
+[x] Filled.svg
+[x] Outlined.svg
+[x] User
+[x] Add-Person
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Group-person
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Person
+[x]  Filled.svg
+[x]  Outlined.svg
+[x] Two-Person
+[x] Filled.svg
+[x] Outlined.svg
