@@ -1,7 +1,7 @@
 {
   "name": "@pooya-poi/vectonents",
-  "version": "1.0.0",
-  "description": "A TypeScript package built with tsup",
+  "version": "0.1.0",
+  "description": "A set of Svg icon components for React",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
