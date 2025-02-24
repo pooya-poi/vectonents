@@ -1,11 +1,11 @@
 import React from 'react';
-interface CopyProps {
+interface CreditCardProps {
     color?: string;
     className?: string;
     variants?: 'filled' | 'outlined';
     size?: number;
 }
-const Copy: React.FC<CopyProps> = ({
+const CreditCard: React.FC<CreditCardProps> = ({
     color,
     className = '',
     variants = 'filled',
@@ -34,4 +34,4 @@ const Copy: React.FC<CopyProps> = ({
         </svg>
     );
 };
-export default Copy;
+export default CreditCard;

@@ -14,7 +14,6 @@ const DocumentEdit: React.FC<DocumentEditProps> = ({
     const defaultColor = 'white';
     const fillColor = color || defaultColor;
     return (
-
         <svg
             width={size}
             height={size}

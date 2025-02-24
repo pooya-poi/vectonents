@@ -14,7 +14,6 @@ const CopyDocument: React.FC<CopyDocumentProps> = ({
     const defaultColor = 'white';
     const fillColor = color || defaultColor;
     return (
-
         <svg
             width={size}
             height={size}

@@ -14,7 +14,6 @@ const Crop: React.FC<CropProps> = ({
     const defaultColor = 'white';
     const fillColor = color || defaultColor;
     return (
-
         <svg
             width={size}
             height={size}
