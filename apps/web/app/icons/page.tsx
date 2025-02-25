@@ -1,5 +1,3 @@
-import { ArrowDown, ArrowLeft, ArrowRight } from "@pooya-poi/vectonents";
-// import styles from "./page.module.css";
 import * as icons from "@pooya-poi/vectonents";
 
 export default function Home() {
