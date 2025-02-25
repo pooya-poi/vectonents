@@ -1,3 +1,4 @@
+'use client'
 import * as icons from "@pooya-poi/vectonents";
 
 export default function Home() {
