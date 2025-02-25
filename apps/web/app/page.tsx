@@ -2,13 +2,6 @@
 import Logo from "@/components/logo";
 import ToggleTheme from "@/components/toggle-theme";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, ArrowLeft, ArrowRight } from "@pooya-poi/vectonents";
-// import styles from "./page.module.css";
-import * as icons from "@pooya-poi/vectonents";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
-import { Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -29,11 +22,7 @@ export default function Home() {
         </nav>
 
 
-
         <ToggleTheme />
-
-
-
 
       </header>
       {/* hero section */}
