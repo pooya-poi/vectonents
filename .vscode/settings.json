@@ -3,5 +3,14 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "tailwindCSS.suggestions": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.validate": true,
+  "tailwindCSS.experimental.configFile": "apps/web/app/tailwind.css",
+
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "svg.preview.background": "editor"
 }

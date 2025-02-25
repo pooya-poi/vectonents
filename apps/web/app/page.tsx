@@ -1,52 +1,69 @@
+"use client"
+import Logo from "@/components/logo";
+import ToggleTheme from "@/components/toggle-theme";
+import { Button } from "@/components/ui/button";
 import { ArrowDown, ArrowLeft, ArrowRight } from "@pooya-poi/vectonents";
 // import styles from "./page.module.css";
 import * as icons from "@pooya-poi/vectonents";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
 
-  const iconEntries = Object.entries(icons);
-
-  const iconVariants: { [key: string]: string[] } = {
-    ArrowDown: ['filled', 'outlined', 'filled-1', 'outlined-1'],
-    Sort: ['filled', 'outlined', 'filled-1', 'outlined-1'],
-    AirpodCase: ['filled', 'outlined', 'filled-1', 'outlined-1'],
-    Speaker: ['filled', 'outlined', 'filled-1', 'outlined-1'],
-    Watch: ['filled', 'outlined', 'filled-r', 'outlined-r'],
-    Document: ['filled', 'filled-1', 'filled-2', 'filled-3', 'outlined', 'outlined-1', 'outlined-2', 'outlined-3'],
-    Brush: ['filled', 'filled-1', 'outlined', 'outlined-1'],
-    Crop: ['filled', 'filled-1', 'outlined', 'outlined-1'],
-    Chat: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
-    Filter: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
-    Menu: ['filled', 'filled-1', 'filled-2', 'outlined', 'outlined-1', 'outlined-2'],
-    Grid: ['filled', 'filled-1', 'filled-2', 'filled-3', 'filled-4', 'filled-5', 'filled-6', 'filled-7', 'outlined', 'outlined-1', 'outlined-2', 'outlined-3', 'outlined-4', 'outlined-5', 'outlined-6', 'outlined-7'],
-
-    // Add more icons and their variants as needed
-  };
 
 
   return (
-    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-      {iconEntries.map(([name, IconComponent]) => {
-        // Get the variants for the current icon from the manual mapping
-        const variants = iconVariants[name] || ['filled', 'outlined']; // Fallback to default variants
 
-        return (
-          <div key={name} style={{ textAlign: 'center', border: '1px solid #ccc', padding: '16px', borderRadius: '8px' }}>
-            <h3 style={{ marginBottom: '16px', fontSize: '16px', color: '#333' }}>{name}</h3>
-            <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
-              {/* Render each variant */}
-              {variants.map((variant) => (
-                <div key={variant}>
-                  <div style={{ marginBottom: '8px' }}>
-                    <IconComponent size={32} variants={variant as 'filled' | 'outlined'} />
-                  </div>
-                  <div style={{ fontSize: '12px', color: '#666' }}>{variant}</div>
-                </div>
-              ))}
+    <div>
+      <header className="border-b border-gray-700 border-dashed h-12 pt-3">
+        <nav className="flex justify-between mx-auto max-w-7xl">
+          <Link href="/">Logo</Link>
+          <ul className="flex space-x-4">
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+          </ul>
+        </nav>
+
+
+
+        <ToggleTheme />
+
+
+
+
+      </header>
+      {/* hero section */}
+      <div className="flex justify-center mx-auto h-[100vh] ">
+
+        <div className="flex flex-col gap-y-3 text-center justify-center items-center w-1/2">
+          <div className="transform-flat">
+            <div className="translate-z-12 -rotate-z-25 rotate-x-25 hover:rotate-z-0 hover:rotate-x-0 transition transform-3d ease-in-out ">
+              <Logo className='size-80 ' size={200} />
             </div>
           </div>
-        );
-      })}
+          <h1 className="text-5xl font-bold font-rasgen text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-400">
+            Vectonents
+          </h1>
+          <h2 className="text-3xl font-bold font-rasgen">
+            <span className="underline  bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-400">Lightweight</span> & <span className="underline">Customizable</span> React SVG Icon Components
+          </h2>
+          <p className="text-lg text-justify">Elevate your React apps with Vectonents – a sleek library of SVG icon components designed for performance and flexibility. Enjoy crisp, scalable vector graphics, effortless customization via props (size, color, stroke), and seamless theming. Built for developers who value clean code, accessibility, and pixel-perfect visuals. Perfect for modern UIs. 🚀 Install once, vectorize everywhere.</p>
+          <Button>Get Started</Button>
+        </div>
+
+
+
+      </div>
+
+
+
+      <footer className="mx-auto max-w-7xl">footer</footer>
+
+
     </div>
   );
 }
