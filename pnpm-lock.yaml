@@ -21,8 +21,8 @@ importers:
   apps/web:
     dependencies:
       '@pooya-poi/vectonents':
-        specifier: workspace:^
-        version: link:../../packages/vectonents
+        specifier: ^0.1.1
+        version: 0.1.1
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.6
         version: 2.1.6(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -615,6 +615,9 @@ packages:
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
+
+  '@pooya-poi/vectonents@0.1.1':
+    resolution: {integrity: sha512-g+njpThDpuI0p2VlKmqo5UACTZLVZtG4+JWjErpEe5QdzDcIhBqlKjYK+OMqYmoRwfgLTR1rOb6B7Sw26DmMHA==}
 
   '@radix-ui/primitive@1.1.1':
     resolution: {integrity: sha512-SJ31y+Q/zAyShtXJc8x83i9TYdbAfHZ++tUZnvjJJqFjzsdUnKsxPL6IEtBlxKkU7yzer//GQtZSV4GbldL3YA==}
@@ -3508,6 +3511,10 @@ snapshots:
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
+
+  '@pooya-poi/vectonents@0.1.1':
+    dependencies:
+      react: 19.0.0
 
   '@radix-ui/primitive@1.1.1': {}
 
