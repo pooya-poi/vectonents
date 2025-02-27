@@ -46,7 +46,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <BackgroundGradient />
+          {/* <BackgroundGradient /> */}
           {children}
         </ThemeProvider>
       </body>

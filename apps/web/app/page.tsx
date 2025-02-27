@@ -4,6 +4,9 @@ import ToggleTheme from "@/components/toggle-theme";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Home as HomeIcon, Compass, Box, Lamp } from "@pooya-poi/vectonents";
+import { Dock, DockIcon } from "@/components/magicui/dock";
+import { AuroraBackground } from "@/components/aceternity/aurora-background";
+import { motion } from "motion/react";
 
 export default function Home() {
   return (
@@ -28,7 +31,7 @@ export default function Home() {
       </header>
 
       {/* mobile Navigation */}
-      <div className="fixed z-10 bottom-0 h-14 w-full bg-white/20 backdrop-blur-2xl md:hidden dark:bg-zinc-950/20">
+      {/* <div className="fixed z-10 bottom-0 h-14 w-full bg-white/20 backdrop-blur-2xl md:hidden dark:bg-zinc-950/20">
       <svg className=""   viewBox="0 0 571 75" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fillRule="evenodd" clipRule="evenodd" d="M286 0H0V75H571V0H331C331 11.9347 326.259 23.3807 317.82 31.8198C309.381 40.2589 297.935 45 286 45C274.065 45 262.619 40.2589 254.18 31.8198C245.741 23.3807 241 11.9347 241 6.79481e-06L286 0Z" fill="#D9D9D9"/>
 </svg>
@@ -66,7 +69,64 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
+
+<AuroraBackground>
+      <motion.div
+        initial={{ opacity: 0.0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+        className="relative flex flex-col gap-4 items-center justify-center px-4"
+      >
+        <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+          Background lights are cool you know.
+        </div>
+        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
+          And this, is chemical burn.
+        </div>
+        <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
+          Debug now
+        </button>
+      </motion.div>
+    </AuroraBackground>
+
+<div  className="fixed w-full z-10 bottom-5 ">
+
+<Dock iconMagnification={60} iconDistance={100}>
+        <DockIcon className="bg-black/10 dark:bg-white/10">
+          <Compass />
+        </DockIcon>
+        <DockIcon className="bg-black/10 dark:bg-white/10">
+         <Box />
+        </DockIcon>
+        <DockIcon className="bg-black/10 dark:bg-white/10">
+         <Lamp />
+        </DockIcon>
+        <DockIcon className="bg-black/10 dark:bg-white/10">
+         <HomeIcon />
+        </DockIcon>
+      </Dock>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* hero section */}
       {/*
