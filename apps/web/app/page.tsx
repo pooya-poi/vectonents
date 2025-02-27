@@ -28,24 +28,41 @@ export default function Home() {
       </header>
 
       {/* mobile Navigation */}
-      <div className="fixed bottom-0 h-14 w-full bg-white/20 backdrop-blur-md md:hidden dark:bg-zinc-950/80">
+      <div className="fixed z-10 bottom-0 h-14 w-full bg-white/20 backdrop-blur-2xl md:hidden dark:bg-zinc-950/20">
+      <svg className=""   viewBox="0 0 571 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M286 0H0V75H571V0H331C331 11.9347 326.259 23.3807 317.82 31.8198C309.381 40.2589 297.935 45 286 45C274.065 45 262.619 40.2589 254.18 31.8198C245.741 23.3807 241 11.9347 241 6.79481e-06L286 0Z" fill="#D9D9D9"/>
+</svg>
+
         <nav>
           <ul className="flex items-center justify-between px-4 pt-1.5 text-xs">
             <li className="flex flex-col items-center">
+              <Link href="#" className="flex flex-col items-center">
               <HomeIcon />
-              <Link href="#">Home</Link>
+              Home
+              </Link>
             </li>
             <li className="flex flex-col items-center">
+              <Link href="#" className="flex flex-col items-center">
               <Lamp variants="outlined" size={30} />
-              <Link href="#">Guide</Link>
+              Guide
+              </Link>
             </li>
             <li className="flex flex-col items-center">
+              <Link href="#" className=" border-4 border-black bg-red-400 p-2 -mt-10 rounded-full text-center">
+              <Logo className="size-8"/>
+              </Link>
+            </li>
+            <li className="flex flex-col items-center">
+              <Link href="#" className="flex flex-col items-center">
               <Box />
-              <Link href="#">Packages</Link>
+              Packages
+              </Link>
             </li>
             <li className="flex flex-col items-center">
+              <Link href="#" className="flex flex-col items-center">
               <Compass />
-              <Link href="#">Icons</Link>
+              Icons
+              </Link>
             </li>
           </ul>
         </nav>
