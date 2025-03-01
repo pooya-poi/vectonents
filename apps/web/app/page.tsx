@@ -22,6 +22,7 @@ import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { CanvasRevealEffect } from "@/components/aceternity/canvas-reveal-effect";
 import WhySection from "@/components/widgets/why-section";
 import IconSample from "@/components/widgets/icon-sample";
+import Footer from "@/components/widgets/footer";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
 
         <ToggleTheme />
       </header> */}
+       <ToggleTheme className="fixed"/>
 
       <LampContainer className="">
         <motion.div
@@ -74,22 +76,7 @@ export default function Home() {
         </motion.div>
       </LampContainer>
 
-      <div className="fixed bottom-5 z-10 w-full">
-        <Dock iconMagnification={60} iconDistance={100}>
-          <DockIcon className="bg-black/10 dark:bg-white/10">
-            <Compass />
-          </DockIcon>
-          <DockIcon className="bg-black/10 dark:bg-white/50">
-            <Box />
-          </DockIcon>
-          <DockIcon className="bg-black/10 dark:bg-white/50">
-            <Lamp />
-          </DockIcon>
-          <DockIcon className="bg-black/10 dark:bg-white/50">
-            <HomeIcon />
-          </DockIcon>
-        </Dock>
-      </div>
+      
 
       {/* Why section */}
       <WhySection />
@@ -98,9 +85,7 @@ export default function Home() {
       <IconSample/>
       
 
-      <footer className="mb-14 flex w-full items-center justify-center bg-zinc-950 md:mb-0">
-        <p>All rights reserved for Vectonents © {new Date().getFullYear()}</p>
-      </footer>
+     <Footer/>
     </>
   );
 }
