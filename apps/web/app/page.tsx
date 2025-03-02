@@ -44,7 +44,7 @@ export default function Home() {
 
         <ToggleTheme />
       </header> */}
-      <ToggleTheme className="fixed" />
+      
 
       {/* <LampContainer className="">
         <motion.div
