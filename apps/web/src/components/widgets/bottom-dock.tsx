@@ -12,6 +12,7 @@ import { buttonVariants } from "../ui/button";
 import { cn } from "@/lib/utils";
 import { Separator } from "../ui/separator";
 import { BorderBeam } from "../magicui/border-beam";
+import ToggleTheme from "../toggle-theme";
 
 const DATA = {
   navbar: [
@@ -29,6 +30,7 @@ const BottomDock: React.FC = () => {
     <div className="fixed bottom-5 z-20 w-full ">
       <TooltipProvider>
         <Dock direction="middle" className="bg-zinc-950/10 rounded-full">
+      
           {DATA.navbar.map((item) => (
             <DockIcon key={item.id}>
               <Tooltip>
@@ -57,9 +59,11 @@ const BottomDock: React.FC = () => {
             <Tooltip>
               <TooltipTrigger asChild>
                 {/* <ModeToggle className="rounded-full" /> */}
+                <ToggleTheme  variant={"simple"}/>
               </TooltipTrigger>
+              
               <TooltipContent>
-                <p>Theme</p>
+                <p>Change Theme</p>
               </TooltipContent>
             </Tooltip>
           </DockIcon>

@@ -11,8 +11,6 @@ import {
   Close as CloseIcon,
 } from "@pooya-poi/vectonents";
 import { Dock, DockIcon } from "@/components/magicui/dock";
-import { AuroraBackground } from "@/components/aceternity/aurora-background";
-import { AnimatePresence, motion } from "motion/react";
 import { Spotlight } from "@/components/aceternity/spotlight-new";
 import { LampContainer } from "@/components/aceternity/lamp";
 import { InteractiveGridPattern } from "@/components/magicui/interactive-grid-pattern";
@@ -23,6 +21,7 @@ import { CanvasRevealEffect } from "@/components/aceternity/canvas-reveal-effect
 import WhySection from "@/components/widgets/why-section";
 import IconSample from "@/components/widgets/icon-sample";
 import Footer from "@/components/widgets/footer";
+import { Hero } from "@/components/widgets/hero";
 
 export default function Home() {
   return (
@@ -45,9 +44,9 @@ export default function Home() {
 
         <ToggleTheme />
       </header> */}
-       <ToggleTheme className="fixed"/>
+      <ToggleTheme className="fixed" />
 
-      <LampContainer className="">
+      {/* <LampContainer className="">
         <motion.div
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -74,18 +73,36 @@ export default function Home() {
             Get Start 🚀
           </Button>
         </motion.div>
-      </LampContainer>
+      </LampContainer> */}
 
-      
+      <Hero
+        title="Vectonents"
+        subtitle="Lightweight & Customizable React SVG Icon Components"
+        actions={[
+          {
+            label: "Get Start 🚀",
+            href: "#",
+            variant: "outline",
+          },
+        ]}
+        titleClassName="text-5xl md:text-6xl font-extrabold"
+        subtitleClassName="text-lg md:text-xl max-w-[600px]"
+        actionsClassName="mt-8"
+      >
+        <div className="mx-5 -mt-12 flex items-center justify-center self-center">
+          <div className="translate-z-12 rotate-x-25 -rotate-z-25 transform-3d">
+            <Logo className="size-36 translate-z-12 rotate-x-25 -rotate-z-25 text-zinc-900/90 lg:size-80 dark:text-zinc-200/90" />
+          </div>
+        </div>
+      </Hero>
 
       {/* Why section */}
       <WhySection />
 
       {/* icon samples section */}
-      <IconSample/>
-      
+      <IconSample />
 
-     <Footer/>
+      <Footer />
     </>
   );
 }
