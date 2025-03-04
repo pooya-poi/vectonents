@@ -14,7 +14,7 @@ const toggleThemeVariants = cva("group bg-background dark:bg-forground", {
       default:
         "border-none shadow-none hover:text-white hover:bg-gray-300 dark:data-[state=on]:bg-slate-900 hover:data-[state=on]:bg-gray-300 dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 data-[state=on]:bg-background",
       simple:
-        "border-none bg-transparent hover:text-white hover:bg-gray-300 dark:data-[state=on]:bg-slate-900 hover:data-[state=on]:bg-gray-300 dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 data-[state=on]:bg-background",
+        "border-none rounded-full bg-transparent hover:text-white hover:bg-zinc-600 dark:data-[state=on]:bg-slate-900 hover:data-[state=on]:bg-gray-300 dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 data-[state=on]:bg-background",
     },
     rounded: {
       sm: "rounded-sm",

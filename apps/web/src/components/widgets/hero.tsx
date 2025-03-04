@@ -40,7 +40,7 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
       <section
         ref={ref}
         className={cn(
-          "relative z-0 flex min-h-[100vh] w-full flex-col items-center justify-center overflow-hidden rounded-md bg-zinc-950",
+          "relative z-0 flex min-h-[100vh] w-full flex-col items-center justify-center overflow-hidden rounded-md dark:bg-zinc-950",
           className,
         )}
         {...props}
@@ -86,8 +86,8 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
               }}
               className="bg-gradient-conic absolute inset-auto right-1/2 h-56 w-[30rem] overflow-visible from-indigo-500/80 via-transparent to-transparent [--conic-position:from_70deg_at_center_top]"
             >
-              <div className="absolute bottom-0 left-0 z-20 h-40 w-[100%] bg-zinc-950 [mask-image:linear-gradient(to_top,white,transparent)]" />
-              <div className="absolute bottom-0 left-0 z-20 h-[100%] w-40 bg-zinc-950 [mask-image:linear-gradient(to_right,white,transparent)]" />
+              <div className="absolute bottom-0 left-0 z-20 h-40 w-[100%] dark:bg-zinc-950 [mask-image:linear-gradient(to_top,white,transparent)]" />
+              <div className="absolute bottom-0 left-0 z-20 h-[100%] w-40 dark:bg-zinc-950 [mask-image:linear-gradient(to_right,white,transparent)]" />
             </motion.div>
 
             {/* Right gradient cone */}
@@ -104,8 +104,8 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
               }}
               className="bg-gradient-conic to-indigo-500/80[--conic-position:from_290deg_at_center_top] absolute inset-auto left-1/2 h-56 w-[30rem] from-transparent via-transparent"
             >
-              <div className="absolute right-0 bottom-0 z-20 h-[100%] w-40 bg-zinc-950 [mask-image:linear-gradient(to_left,white,transparent)]" />
-              <div className="absolute right-0 bottom-0 z-20 h-40 w-[100%] bg-zinc-950 [mask-image:linear-gradient(to_top,white,transparent)]" />
+              <div className="absolute right-0 bottom-0 z-20 h-[100%] w-40 dark:bg-zinc-950 [mask-image:linear-gradient(to_left,white,transparent)]" />
+              <div className="absolute right-0 bottom-0 z-20 h-40 w-[100%] dark:bg-zinc-950 [mask-image:linear-gradient(to_top,white,transparent)]" />
             </motion.div>
           </div>
         )}
