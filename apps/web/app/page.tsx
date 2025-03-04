@@ -1,23 +1,5 @@
 "use client";
 import Logo from "@/components/logo";
-import ToggleTheme from "@/components/toggle-theme";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import {
-  Home as HomeIcon,
-  Compass,
-  Box,
-  Lamp,
-  Close as CloseIcon,
-} from "@pooya-poi/vectonents";
-import { Dock, DockIcon } from "@/components/magicui/dock";
-import { Spotlight } from "@/components/aceternity/spotlight-new";
-import { LampContainer } from "@/components/aceternity/lamp";
-import { InteractiveGridPattern } from "@/components/magicui/interactive-grid-pattern";
-import { cn } from "@/lib/utils";
-import { Ripple } from "@/components/magicui/ripple";
-import { FlickeringGrid } from "@/components/magicui/flickering-grid";
-import { CanvasRevealEffect } from "@/components/aceternity/canvas-reveal-effect";
 import WhySection from "@/components/widgets/why-section";
 import IconSample from "@/components/widgets/icon-sample";
 import Footer from "@/components/widgets/footer";
