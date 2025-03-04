@@ -19,10 +19,6 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
 });
-const rasgen = localFont({
-  src: "./fonts/RasgenBold.woff2",
-  variable: "--font-rasgen-bold",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
