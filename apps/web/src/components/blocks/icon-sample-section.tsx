@@ -81,7 +81,7 @@ const icons = [
   { id: 24, name: "Calendar", icon: <Calendar /> },
 ];
 
-const IconSample: React.FC = () => {
+const IconSampleSection: React.FC = () => {
   const [size, setSize] = useState([30]); // Default size is 25
   const [variants, setVariants] = useState<"filled" | "outlined">("filled"); // Default variant is filled
   const [color, setColor] = useState("text-white"); // Default color is white
@@ -238,5 +238,5 @@ const IconSample: React.FC = () => {
   );
 };
 
-IconSample.displayName = "IconSample";
-export default IconSample;
+IconSampleSection.displayName = "IconSampleSection";
+export default IconSampleSection;
