@@ -7,7 +7,6 @@ import BackgroundGradient from "@/components/background-gradient";
 import BottomDock from "@/components/widgets/bottom-dock";
 
 const roboto = Roboto({
-  weight: "400",
   subsets: ["latin"],
   display: "swap",
 });
