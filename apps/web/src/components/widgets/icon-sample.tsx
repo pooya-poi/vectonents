@@ -142,7 +142,7 @@ const IconSample: React.FC = () => {
                 </output>
               </div>
               <Slider
-              step={5}
+              
                 value={size}
                 min={16}
                 max={50}
