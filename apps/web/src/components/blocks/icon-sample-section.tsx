@@ -122,7 +122,7 @@ const IconSampleSection: React.FC = () => {
     };
   }, []);
   return (
-    <div className="border-t py-15 dark:bg-zinc-950">
+    <div className=" py-15 dark:bg-zinc-950">
       <Card className="relative mx-auto flex w-fit flex-col overflow-hidden rounded-xs border">
         <CardHeader className="text-center">
           <CardTitle className="font-rasgen tracking-wide">

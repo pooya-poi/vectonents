@@ -49,7 +49,7 @@ const WhySection: React.FC = () => {
   }, []);
 
   return (
-    <div className="border-t bg-white py-5 dark:bg-zinc-950">
+    <div className=" bg-white py-5 dark:bg-zinc-950">
       <h3 className="font-rasgen text-center text-2xl">Why Vectonents?</h3>
       <div className="mx-auto flex w-full flex-col items-center justify-center gap-10 overflow-hidden px-8 py-5 lg:flex-row lg:flex-wrap">
         {items.map((item) => (
