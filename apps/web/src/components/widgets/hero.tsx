@@ -121,7 +121,7 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
             {children}
             <h1
               className={cn(
-                "font-rasgen text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl",
+                "font-rasgen text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-indigo-600 to-pink-500 bg-clip-text inline-block text-transparent",
                 titleClassName,
               )}
             >
