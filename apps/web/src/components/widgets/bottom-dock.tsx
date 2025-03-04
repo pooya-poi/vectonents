@@ -26,13 +26,14 @@ const DATA = {
 
 const BottomDock: React.FC = () => {
   return (
-    // <div className="fixed bottom-5 flex flex-col items-center justify-center">
-    <div className="fixed bottom-5 z-20 w-full ">
+    <div className="fixed bottom-5 z-20 w-full px-2">
       <TooltipProvider>
-        <Dock direction="middle" className="bg-zinc-950/10 rounded-full">
-      
+        <Dock
+          direction="middle"
+          className="h-14 w-full rounded-full bg-zinc-950/10 py-8 lg:w-96"
+        >
           {DATA.navbar.map((item) => (
-            <DockIcon key={item.id}>
+            <DockIcon key={item.id} className="flex">
               <Tooltip>
                 <TooltipTrigger asChild>
                   <Link
@@ -40,10 +41,13 @@ const BottomDock: React.FC = () => {
                     aria-label={item.label}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "rounded-full p-6",
+                      "flex flex-col justify-center rounded-full p-6",
                     )}
                   >
                     <item.icon className="size-6" />
+                    <span className="text-[12px] font-light lg:hidden">
+                      {item.label}
+                    </span>
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -59,15 +63,14 @@ const BottomDock: React.FC = () => {
             <Tooltip>
               <TooltipTrigger asChild>
                 {/* <ModeToggle className="rounded-full" /> */}
-                <ToggleTheme  variant={"simple"}/>
+                <ToggleTheme variant={"simple"} />
               </TooltipTrigger>
-              
+
               <TooltipContent>
                 <p>Change Theme</p>
               </TooltipContent>
             </Tooltip>
           </DockIcon>
-   
         </Dock>
       </TooltipProvider>
     </div>
