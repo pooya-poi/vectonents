@@ -2,15 +2,14 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/provider/theme-provider";
-import { Roboto } from 'next/font/google'
+import { Roboto } from "next/font/google";
 import BackgroundGradient from "@/components/background-gradient";
-
+import BottomDock from "@/components/widgets/bottom-dock";
 
 const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-})
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,10 +18,6 @@ const geistSans = localFont({
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
-});
-const rasgen = localFont({
-  src: "./fonts/RasgenBold.woff2",
-  variable: "--font-rasgen-bold",
 });
 
 export const metadata: Metadata = {
@@ -35,19 +30,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${roboto.className}`}>
-
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.className}`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <BackgroundGradient />
           {children}
+          <BottomDock />
         </ThemeProvider>
       </body>
     </html>
