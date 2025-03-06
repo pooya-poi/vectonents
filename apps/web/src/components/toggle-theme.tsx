@@ -8,13 +8,13 @@ import { MoonIcon, SunIcon } from "lucide-react";
 /**
  * Variants for the ToggleTheme component styles using class-variance-authority.
  */
-const toggleThemeVariants = cva("group bg-background dark:bg-forground", {
+const toggleThemeVariants = cva("group", {
   variants: {
     variant: {
       default:
-        "border-none shadow-none hover:text-white hover:bg-gray-300 dark:data-[state=on]:bg-slate-900 hover:data-[state=on]:bg-gray-300 dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 data-[state=on]:bg-background",
+        "border-none shadow-none hover:text-white   dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 ",
       simple:
-        "border-none rounded-full bg-transparent hover:text-white hover:bg-zinc-600 dark:data-[state=on]:bg-slate-900 hover:data-[state=on]:bg-gray-300 dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 data-[state=on]:bg-background",
+        "border-none rounded-full bg-transparent dark:hover:text-white dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-400 ",
     },
     rounded: {
       sm: "rounded-sm",
