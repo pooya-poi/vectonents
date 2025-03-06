@@ -232,106 +232,110 @@ export default function Home() {
           }}
         />
       </div>
-
-      {/* Filter Section */}
-      <div style={{ marginBottom: "16px", display: "flex", gap: "16px" }}>
-        icon count: {filteredIcons.length}
-        <div>
-          <h4>Tags</h4>
-          {allTags.map((tag) => (
-            <div key={tag}>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={selectedTags.includes(tag)}
-                  onChange={() => handleTagChange(tag)}
-                />
-                {tag} ({tagCounts[tag] || 0})
-              </label>
-            </div>
-          ))}
+      <div className="mx-5 flex flex-col gap-x-5 lg:flex-row">
+        {/* Filter Section */}
+        <div
+          className="sticky top-10 rounded-lg bg-gray-700 p-4"
+          style={{ marginBottom: "16px", display: "flex", gap: "16px" }}
+        >
+          icon count: {filteredIcons.length}
+          <div>
+            <h4>Tags</h4>
+            {allTags.map((tag) => (
+              <div key={tag}>
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={selectedTags.includes(tag)}
+                    onChange={() => handleTagChange(tag)}
+                  />
+                  {tag} ({tagCounts[tag] || 0})
+                </label>
+              </div>
+            ))}
+          </div>
+          <div>
+            <h4>Categories</h4>
+            {allCategories.map((category) => (
+              <div key={category}>
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={selectedCategories.includes(category)}
+                    onChange={() => handleCategoryChange(category)}
+                  />
+                  {category} ({categoryCounts[category] || 0})
+                </label>
+              </div>
+            ))}
+          </div>
         </div>
-        <div>
-          <h4>Categories</h4>
-          {allCategories.map((category) => (
-            <div key={category}>
-              <label>
-                <input
-                  type="checkbox"
-                  checked={selectedCategories.includes(category)}
-                  onChange={() => handleCategoryChange(category)}
-                />
-                {category} ({categoryCounts[category] || 0})
-              </label>
-            </div>
-          ))}
+
+        {/* Icons Grid */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
+          {filteredIcons.map(([name]) => {
+            const isVisible = visibleIcons.some(
+              ([visibleName]) => visibleName === name,
+            );
+
+            return (
+              <div
+                key={name}
+                data-icon-name={name}
+                className="icon-placeholder w-fit rounded-lg border border-white p-4 text-center"
+              >
+                {isVisible ? (
+                  <>
+                    <h3
+                      className=""
+                      style={{
+                        marginBottom: "16px",
+                        fontSize: "16px",
+                        color: "#333",
+                      }}
+                    >
+                      {name}
+                    </h3>
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "16px",
+                        justifyContent: "center",
+                      }}
+                    >
+                      {(iconVariants[name] || ["filled", "outlined"]).map(
+                        (variant) => {
+                          const IconComponent = icons[
+                            name as keyof typeof icons
+                          ] as React.ComponentType<{
+                            size: number;
+                            variants: "filled" | "outlined";
+                          }>;
+
+                          return (
+                            <div key={variant}>
+                              <div style={{ marginBottom: "8px" }}>
+                                <IconComponent
+                                  size={32}
+                                  variants={variant as "filled" | "outlined"}
+                                />
+                              </div>
+                              <div style={{ fontSize: "12px", color: "#666" }}>
+                                {variant}
+                              </div>
+                            </div>
+                          );
+                        },
+                      )}
+                    </div>
+                  </>
+                ) : (
+                  <div>Loading...</div> // Placeholder content
+                )}
+              </div>
+            );
+          })}
         </div>
-      </div>
-
-      {/* Icons Grid */}
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
-        {filteredIcons.map(([name]) => {
-          const isVisible = visibleIcons.some(
-            ([visibleName]) => visibleName === name,
-          );
-
-          return (
-            <div
-              key={name}
-              data-icon-name={name}
-              className="icon-placeholder w-fit rounded-lg border border-white p-4 text-center"
-            >
-              {isVisible ? (
-                <>
-                  <h3
-                    className=""
-                    style={{
-                      marginBottom: "16px",
-                      fontSize: "16px",
-                      color: "#333",
-                    }}
-                  >
-                    {name}
-                  </h3>
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "16px",
-                      justifyContent: "center",
-                    }}
-                  >
-                    {(iconVariants[name] || ["filled", "outlined"]).map(
-                      (variant) => {
-                        const IconComponent = icons[
-                          name as keyof typeof icons
-                        ] as React.ComponentType<{
-                          size: number;
-                          variants: "filled" | "outlined";
-                        }>;
-
-                        return (
-                          <div key={variant}>
-                            <div style={{ marginBottom: "8px" }}>
-                              <IconComponent
-                                size={32}
-                                variants={variant as "filled" | "outlined"}
-                              />
-                            </div>
-                            <div style={{ fontSize: "12px", color: "#666" }}>
-                              {variant}
-                            </div>
-                          </div>
-                        );
-                      },
-                    )}
-                  </div>
-                </>
-              ) : (
-                <div>Loading...</div> // Placeholder content
-              )}
-            </div>
-          );
-        })}
       </div>
     </>
   );
