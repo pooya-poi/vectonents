@@ -3,6 +3,12 @@ import * as icons from "@pooya-poi/vectonents";
 import json from "./icons.json";
 import Fuse from "fuse.js";
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
+import Footer from "@/components/blocks/footer";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 // Debounce function
 function debounce(func: Function, wait: number) {
@@ -18,6 +24,7 @@ export default function Home() {
 
   // State for search query
   const [searchQuery, setSearchQuery] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
 
   // State for visible icons (lazy loading)
   const [visibleIcons, setVisibleIcons] = useState<[string, any][]>([]);
@@ -25,6 +32,11 @@ export default function Home() {
   // State for selected tags and categories
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+
+  // State for copied icons (track copied state per icon)
+  const [copiedIcons, setCopiedIcons] = useState<{ [key: string]: boolean }>(
+    {},
+  );
 
   // Ref for the observer
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -213,66 +225,96 @@ export default function Home() {
     );
   };
 
+  // Handle copy button click
+  const handleCopy = async (iconName: string) => {
+    try {
+      const iconText = `<${iconName} />`;
+      await navigator.clipboard.writeText(iconText);
+
+      // Update the copied state for the specific icon
+      setCopiedIcons((prev) => ({
+        ...prev,
+        [iconName]: true,
+      }));
+
+      // Reset the copied state after 1.5 seconds
+      setTimeout(() => {
+        setCopiedIcons((prev) => ({
+          ...prev,
+          [iconName]: false,
+        }));
+      }, 1500);
+    } catch (err) {
+      console.error("Failed to copy text: ", err);
+    }
+  };
+
   return (
-    <>
+    <div className="dark:bg-zinc-950">
       {/* Search Input */}
-      <div style={{ marginBottom: "16px" }}>
-        <input
-          type="text"
-          placeholder="Search icons..."
-          defaultValue={searchQuery}
-          onChange={(e) => handleSearch(e.target.value)}
-          style={{
-            padding: "8px",
-            fontSize: "16px",
-            width: "100%",
-            maxWidth: "400px",
-            borderRadius: "4px",
-            border: "1px solid #ccc",
-          }}
-        />
+      <div className="sticky top-0 z-10 flex justify-center bg-white py-5 dark:bg-zinc-950">
+        <div className="relative w-1/2">
+          <Input
+            id="searchInput"
+            ref={inputRef}
+            className="pe-9"
+            placeholder="Search icons..."
+            type="text"
+            defaultValue={searchQuery}
+            onChange={(e) => handleSearch(e.target.value)}
+          />
+        </div>
       </div>
-      <div className="mx-5 flex flex-col gap-x-5 lg:flex-row">
+
+      <div className="flex flex-col gap-y-5 p-5 lg:flex-row">
         {/* Filter Section */}
-        <div
-          className="sticky top-10 rounded-lg bg-gray-700 p-4"
-          style={{ marginBottom: "16px", display: "flex", gap: "16px" }}
-        >
-          icon count: {filteredIcons.length}
-          <div>
-            <h4>Tags</h4>
-            {allTags.map((tag) => (
-              <div key={tag}>
-                <label>
-                  <input
-                    type="checkbox"
-                    checked={selectedTags.includes(tag)}
-                    onChange={() => handleTagChange(tag)}
-                  />
-                  {tag} ({tagCounts[tag] || 0})
-                </label>
+        <div className="sticky top-16 z-10 h-60 overflow-y-scroll rounded-lg bg-white p-4 lg:top-15 lg:h-full lg:w-1/5 dark:bg-zinc-950">
+          <div className="">
+            icons: {filteredIcons.length}
+            <div className="mt-6">
+              <h4>Tags</h4>
+              <div className="grid gap-y-5">
+                {allTags.map((tag) => (
+                  <div
+                    key={tag}
+                    className="flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
+                  >
+                    <Checkbox
+                      id={`${tag}-1`}
+                      onCheckedChange={() => handleTagChange(tag)}
+                    />
+                    <Label htmlFor={`${tag}-1`}>
+                      {tag} ({tagCounts[tag] || 0})
+                    </Label>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-          <div>
-            <h4>Categories</h4>
-            {allCategories.map((category) => (
-              <div key={category}>
-                <label>
-                  <input
-                    type="checkbox"
-                    checked={selectedCategories.includes(category)}
-                    onChange={() => handleCategoryChange(category)}
-                  />
-                  {category} ({categoryCounts[category] || 0})
-                </label>
+            </div>
+            {/* <div className="mt-6">
+              <h4>Categories</h4>
+              <div className="grid gap-y-5">
+                {allCategories.map((category) => (
+                  <div
+                    key={category}
+                    className="flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
+                  >
+                    <Checkbox
+                      id={`${category}`}
+                      checked={selectedCategories.includes(category)}
+                      onCheckedChange={() => handleCategoryChange(category)}
+                    />
+                    <Label htmlFor={`${category}`}>
+                      {category} ({categoryCounts[category] || 0})
+                    </Label>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div> */}
           </div>
         </div>
 
         {/* Icons Grid */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
+        <div className="flex flex-wrap justify-center gap-4 overflow-y-scroll px-4 lg:w-full">
           {filteredIcons.map(([name]) => {
             const isVisible = visibleIcons.some(
               ([visibleName]) => visibleName === name,
@@ -282,27 +324,54 @@ export default function Home() {
               <div
                 key={name}
                 data-icon-name={name}
-                className="icon-placeholder w-fit rounded-lg border border-white p-4 text-center"
+                className="icon-placeholder h-fit w-fit rounded-lg border-white bg-gradient-to-br from-zinc-950/8 p-4 text-center dark:from-zinc-900/90"
               >
                 {isVisible ? (
                   <>
-                    <h3
-                      className=""
-                      style={{
-                        marginBottom: "16px",
-                        fontSize: "16px",
-                        color: "#333",
-                      }}
-                    >
-                      {name}
-                    </h3>
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: "16px",
-                        justifyContent: "center",
-                      }}
-                    >
+                    <div className="flex items-center justify-center gap-x-2">
+                      <h3 className="inline-block bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-bold text-transparent">
+                        &lt;{name} /&gt;
+                      </h3>
+
+                      <Button
+                        id={name}
+                        variant="outline"
+                        size="icon"
+                        className="disabled:opacity-100"
+                        onClick={() => handleCopy(name)}
+                        aria-label={
+                          copiedIcons[name] ? "Copied" : "Copy to clipboard"
+                        }
+                        disabled={copiedIcons[name]}
+                      >
+                        <div
+                          className={cn(
+                            "transition-all",
+                            copiedIcons[name]
+                              ? "scale-100 opacity-100"
+                              : "scale-0 opacity-0",
+                          )}
+                        >
+                          <icons.Check
+                            className="stroke-emerald-500"
+                            size={16}
+                            aria-hidden="true"
+                          />
+                        </div>
+                        <div
+                          className={cn(
+                            "absolute transition-all",
+                            copiedIcons[name]
+                              ? "scale-0 opacity-0"
+                              : "scale-100 opacity-100",
+                          )}
+                        >
+                          <icons.Copy size={16} aria-hidden="true" />
+                        </div>
+                      </Button>
+                    </div>
+
+                    <div className="flex flex-wrap justify-center gap-4">
                       {(iconVariants[name] || ["filled", "outlined"]).map(
                         (variant) => {
                           const IconComponent = icons[
@@ -313,14 +382,17 @@ export default function Home() {
                           }>;
 
                           return (
-                            <div key={variant}>
+                            <div
+                              key={variant}
+                              className="flex flex-col items-center"
+                            >
                               <div style={{ marginBottom: "8px" }}>
                                 <IconComponent
                                   size={32}
                                   variants={variant as "filled" | "outlined"}
                                 />
                               </div>
-                              <div style={{ fontSize: "12px", color: "#666" }}>
+                              <div className="text-xs text-white">
                                 {variant}
                               </div>
                             </div>
@@ -330,13 +402,20 @@ export default function Home() {
                     </div>
                   </>
                 ) : (
-                  <div>Loading...</div> // Placeholder content
+                  // Loading spinner
+                  <div>
+                    <icons.RetryRefresh
+                      className="animate-spin"
+                      variants="outlined"
+                    />
+                  </div>
                 )}
               </div>
             );
           })}
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
