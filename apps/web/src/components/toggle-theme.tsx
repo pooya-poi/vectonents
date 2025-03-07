@@ -14,7 +14,7 @@ const toggleThemeVariants = cva("group", {
       default:
         "border-none shadow-none hover:text-white   dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-900 ",
       simple:
-        "border-none rounded-full bg-transparent dark:hover:text-white dark:hover:data-[state=on]:bg-slate-300 dark:group-hover:text-slate-400 ",
+        "border-none rounded-full bg-transparent dark:hover:text-white dark:hover:data-[state=on]:text-slate-300 dark:group-hover:text-slate-400 ",
     },
     rounded: {
       sm: "rounded-sm",
