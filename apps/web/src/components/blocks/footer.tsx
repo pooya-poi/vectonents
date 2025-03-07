@@ -7,21 +7,21 @@ const links = [
     url: "/",
   },
   {
-    title: "About",
-    url: "/about",
+    title: "Icons",
+    url: "/icons",
   },
   {
-    title: "Contact",
-    url: "/contact",
+    title: "Package",
+    url: "/package",
   },
   {
-    title: "Blog",
-    url: "/blog",
+    title: "Guide",
+    url: "/guide",
   },
 ];
 
 const Footer: React.FC = () => (
-  <footer className="mb-14 grid h-44 w-full justify-center dark:bg-zinc-950 pb-10 text-center font-light md:mb-0 lg:grid-cols-3 lg:justify-between">
+  <footer className="mb-14 grid h-44 w-full justify-center pb-10 text-center font-light md:mb-0 lg:grid-cols-3 lg:justify-between dark:bg-zinc-950">
     <div className="order-last flex flex-col justify-center lg:order-first">
       <p className="flex items-center justify-center">
         Made with

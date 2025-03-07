@@ -1,0 +1,1270 @@
+{
+  "icons": [
+    {
+      "id": 1,
+      "name": "Activity",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 2,
+      "name": "AddDocument",
+      "tag": ["addition", "file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 3,
+      "name": "AddPerson",
+      "tag": ["addition"],
+      "category": []
+    },
+    {
+      "id": 4,
+      "name": "Airpod",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 5,
+      "name": "AirpodCase",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 6,
+      "name": "Alarm",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 7,
+      "name": "AlertOctagon",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 8,
+      "name": "AlertTriangle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 9,
+      "name": "Anchor",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 10,
+      "name": "Archive",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 11,
+      "name": "ArrowDown",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 12,
+      "name": "ArrowLeft",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 13,
+      "name": "ArrowLeftDown",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 14,
+      "name": "ArrowRight",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 15,
+      "name": "ArrowRightDown",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 16,
+      "name": "ArrowRightLeft",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 17,
+      "name": "ArrowRightUp",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 18,
+      "name": "ArrowUp",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 19,
+      "name": "ArrowUpDown",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 20,
+      "name": "ArrowUpDownCorner",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 21,
+      "name": "ArrowUpLeft",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 22,
+      "name": "Backwards",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 23,
+      "name": "Battery",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 24,
+      "name": "BatteryFull",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 25,
+      "name": "BatteryLow",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 26,
+      "name": "BatteryMedium",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 27,
+      "name": "Behance",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 28,
+      "name": "Bell",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 29,
+      "name": "Bluetooth",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 30,
+      "name": "Board",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 31,
+      "name": "Book",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 32,
+      "name": "Bookmark",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 33,
+      "name": "Box",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 34,
+      "name": "BoxAdd",
+      "tag": ["addition"],
+      "category": []
+    },
+    {
+      "id": 35,
+      "name": "BoxFav",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 36,
+      "name": "BoxSearch",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 37,
+      "name": "BrokenDocument",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 38,
+      "name": "Brush",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 39,
+      "name": "Calendar",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 40,
+      "name": "Camera",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 41,
+      "name": "Cast",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 42,
+      "name": "ChargingBattrey",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 43,
+      "name": "Chat",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 44,
+      "name": "Check",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 45,
+      "name": "ChevronLeft",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 46,
+      "name": "ChevronRight",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 47,
+      "name": "ChevronUp",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 48,
+      "name": "Click",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 49,
+      "name": "Clipboard",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 50,
+      "name": "Clock",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 51,
+      "name": "Close",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 52,
+      "name": "CloseRectangle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 53,
+      "name": "Command",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 54,
+      "name": "Compass",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 55,
+      "name": "Copy",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 56,
+      "name": "CopyDocument",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 57,
+      "name": "CornerUpArrowLeft",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 58,
+      "name": "CornerUpArrowRight",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 59,
+      "name": "Cpu",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 60,
+      "name": "CreditCard",
+      "tag": ["modification"],
+      "category": []
+    },
+    {
+      "id": 61,
+      "name": "Crop",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 62,
+      "name": "Delete",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 63,
+      "name": "Delivery",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 64,
+      "name": "DeliveryTime",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 65,
+      "name": "DisabledBell",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 66,
+      "name": "Discount",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 67,
+      "name": "Document",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 68,
+      "name": "DocumentEdit",
+      "tag": ["modification", "file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 69,
+      "name": "DocumentFav",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 70,
+      "name": "DocumentHistory",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 71,
+      "name": "DocumentSecure",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 72,
+      "name": "Download",
+      "tag": ["transfer"],
+      "category": ["file transfer"]
+    },
+    {
+      "id": 73,
+      "name": "Dribbble",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 74,
+      "name": "Edit",
+      "tag": ["modification"],
+      "category": []
+    },
+    {
+      "id": 75,
+      "name": "EditAnchorPoint",
+      "tag": ["modification"],
+      "category": []
+    },
+    {
+      "id": 76,
+      "name": "EditFolder",
+      "tag": ["modification"],
+      "category": []
+    },
+    {
+      "id": 77,
+      "name": "Email",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 78,
+      "name": "EmailNotice",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 79,
+      "name": "EmailOpen",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 80,
+      "name": "Eraser",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 81,
+      "name": "Expand",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 82,
+      "name": "ExternalLink",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 83,
+      "name": "Eye",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 84,
+      "name": "Facebook",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 85,
+      "name": "Figma",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 86,
+      "name": "Filter",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 87,
+      "name": "Flag",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 88,
+      "name": "Flame",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 89,
+      "name": "Flopy",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 90,
+      "name": "Folder",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 91,
+      "name": "FolderContent",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 92,
+      "name": "FolderDetails",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 93,
+      "name": "FolderInfo",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 94,
+      "name": "FolderLocked",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 95,
+      "name": "FolderMarked",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 96,
+      "name": "FolderSecure",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 97,
+      "name": "FolderShared",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 98,
+      "name": "FolderSync",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 99,
+      "name": "Forward",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 100,
+      "name": "Gramophone",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 101,
+      "name": "Grid",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 102,
+      "name": "GroupPerson",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 103,
+      "name": "HandyGame",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 104,
+      "name": "Heart",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 105,
+      "name": "Home",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 106,
+      "name": "Imac",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 107,
+      "name": "Image",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 108,
+      "name": "Inbox",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 109,
+      "name": "InfoCircle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 110,
+      "name": "InfoRectangle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 111,
+      "name": "Information",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 112,
+      "name": "Instagram",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 113,
+      "name": "Instant",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 114,
+      "name": "Ipad",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 115,
+      "name": "Iphone",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 116,
+      "name": "Joystick",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 117,
+      "name": "Key",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 118,
+      "name": "Keyboard",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 119,
+      "name": "KeyboardClose",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 120,
+      "name": "KeyboardOpen",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 121,
+      "name": "Keypad",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 122,
+      "name": "Lamp",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 123,
+      "name": "Layer",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 124,
+      "name": "Linkedin",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 125,
+      "name": "ListCaption",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 126,
+      "name": "Loader",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 127,
+      "name": "Location",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 128,
+      "name": "Lock",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 129,
+      "name": "Magnifier",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 130,
+      "name": "Marker",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 131,
+      "name": "Menu",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 132,
+      "name": "Microphone",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 133,
+      "name": "Minimize",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 134,
+      "name": "Minus",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 135,
+      "name": "MinusCircle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 136,
+      "name": "Moon",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 137,
+      "name": "Mouse",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 138,
+      "name": "Mug",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 139,
+      "name": "MultiFolder",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 140,
+      "name": "MusicNote",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 141,
+      "name": "Next",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 142,
+      "name": "Notebook",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 143,
+      "name": "OpenedFolder",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 144,
+      "name": "Pause",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 145,
+      "name": "Pen",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 146,
+      "name": "Person",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 147,
+      "name": "PhonePc",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 148,
+      "name": "Pin",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 149,
+      "name": "Play",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 150,
+      "name": "PlayPause",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 151,
+      "name": "PlaystationXO",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 152,
+      "name": "Pluse",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 153,
+      "name": "PluseCircle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 154,
+      "name": "PluseRegtangle",
+      "tag": ["profile", "account"],
+      "category": ["user management"]
+    },
+    {
+      "id": 155,
+      "name": "Previous",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 156,
+      "name": "Radio",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 157,
+      "name": "Receive",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 158,
+      "name": "RemoveFolder",
+      "tag": ["deletion"],
+      "category": []
+    },
+    {
+      "id": 159,
+      "name": "Reply",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 160,
+      "name": "Resize",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 161,
+      "name": "RetryRefresh",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 162,
+      "name": "RightPosition",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 163,
+      "name": "Rotate",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 164,
+      "name": "SandClock",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 165,
+      "name": "SdCard",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 166,
+      "name": "SearchDocument",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 167,
+      "name": "Send",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 168,
+      "name": "Setting",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 169,
+      "name": "Share",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 170,
+      "name": "Shield",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 171,
+      "name": "Shop",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 172,
+      "name": "ShopKeeper",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 173,
+      "name": "Shopping",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 174,
+      "name": "ShoppingBag",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 175,
+      "name": "ShoppingCart",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 176,
+      "name": "ShoppingCartHandy",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 177,
+      "name": "Shredder",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 178,
+      "name": "Signal",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 179,
+      "name": "Simcard",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 180,
+      "name": "Sort",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 181,
+      "name": "SpaceShuttle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 182,
+      "name": "Speaker",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 183,
+      "name": "SquerArrowDownLeft",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 184,
+      "name": "SquerArrowDownRight",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 185,
+      "name": "SquerArrowUpLeft",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 186,
+      "name": "SquerArrowUpRight",
+      "tag": ["arrow"],
+      "category": []
+    },
+    {
+      "id": 187,
+      "name": "Star",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 188,
+      "name": "Sun",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 189,
+      "name": "SyncDocument",
+      "tag": ["file"],
+      "category": ["file management"]
+    },
+    {
+      "id": 190,
+      "name": "SyncRetry",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 191,
+      "name": "Tag",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 192,
+      "name": "Telephone",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 193,
+      "name": "Trash",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 194,
+      "name": "TrendingDown",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 195,
+      "name": "TrendingUp",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 196,
+      "name": "Tv",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 197,
+      "name": "Twitter",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 198,
+      "name": "TwoPerson",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 199,
+      "name": "TypeC",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 200,
+      "name": "Unavailable",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 201,
+      "name": "Unlock",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 202,
+      "name": "Usb",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 203,
+      "name": "Volume",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 204,
+      "name": "VolumeDown",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 205,
+      "name": "VolumeUp",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 206,
+      "name": "VrGlasses",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 207,
+      "name": "Wallet",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 208,
+      "name": "Watch",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 209,
+      "name": "Wifi",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 210,
+      "name": "World",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 211,
+      "name": "Zap",
+      "tag": [],
+      "category": []
+    }
+  ]
+}
