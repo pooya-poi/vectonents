@@ -27,6 +27,8 @@
     "@tailwindcss/postcss": "^4.0.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "colorjs.io": "^0.5.2",
+    "css-color-names": "^1.0.1",
     "framer-motion": "^12.4.7",
     "fuse.js": "^7.1.0",
     "lucide-react": "^0.475.0",
