@@ -4,10 +4,9 @@ import { useState, useEffect, useCallback } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
 import Color from "colorjs.io";
-import { Copy } from "@pooya-poi/vectonents";
 import cssColorNames from "css-color-names";
+import CopyButton from "../copy-button";
 
 type ColorValues = {
   hex: string;
@@ -17,7 +16,7 @@ type ColorValues = {
 };
 
 export default function ColorConverter() {
-  const [inputColor, setInputColor] = useState<string>("#ff0000");
+  const [inputColor, setInputColor] = useState<string>("#ba59c9");
   const [convertedColors, setConvertedColors] = useState<ColorValues | null>(
     null,
   );
@@ -91,15 +90,13 @@ export default function ColorConverter() {
     setInputColor(value);
   }
 
-  function copyToClipboard(text: string) {
-    navigator.clipboard.writeText(text);
-  }
-
   return (
-    <div className="space-y-8">
-      <Card>
+    <div className="mx-auto max-w-[1920px] space-y-8 p-2">
+      <Card className="">
         <CardHeader>
-          <CardTitle>Advanced Color Converter</CardTitle>
+          <CardTitle className="text-center font-extrabold tracking-wider">
+            Advanced Color Converter
+          </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <Label htmlFor="colorInput">
@@ -115,10 +112,10 @@ export default function ColorConverter() {
 
           {error && <p className="text-sm text-red-500">{error}</p>}
 
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col items-center justify-between gap-x-10 md:flex-row-reverse">
             <div className="flex flex-col items-center gap-2">
               <div
-                className="h-24 w-24 flex-shrink-0 rounded-xl border"
+                className="size-36 flex-shrink-0 rounded-lg border-none"
                 style={{ backgroundColor: convertedColors?.hex || inputColor }}
               ></div>
               <span className="text-xs text-muted-foreground">
@@ -126,24 +123,14 @@ export default function ColorConverter() {
               </span>
             </div>
 
-            <div className="flex-1">
+            <div className="">
               {convertedColors && (
                 <div className="space-y-2">
                   {Object.entries(convertedColors).map(([key, value]) => (
                     <div key={key} className="flex items-center gap-2">
-                      <span className="w-12 font-medium">
-                        {key.toUpperCase()}:
-                      </span>
-                      <span className="flex-1 font-mono text-sm">{value}</span>
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={() => copyToClipboard(value)}
-                        className="h-6 w-6 p-1"
-                        title="Copy to clipboard"
-                      >
-                        <Copy className="h-4 w-4" />
-                      </Button>
+                      <CopyButton valueToCopy={value} />
+                      <span className="font-black">{key.toUpperCase()}:</span>
+                      <span className="font-mono">{value}</span>
                     </div>
                   ))}
                 </div>
