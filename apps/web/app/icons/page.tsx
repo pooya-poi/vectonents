@@ -7,11 +7,13 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import Footer from "@/components/blocks/footer";
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import CopyButton from "@/components/copy-button";
 
 // Debounce function
-function debounce(func: Function, wait: number) {
+function debounce<T extends (...args: any[]) => void>(
+  func: T,
+  wait: number,
+): (...args: Parameters<T>) => void {
   let timeout: NodeJS.Timeout;
   return (...args: any[]) => {
     clearTimeout(timeout);
@@ -32,11 +34,6 @@ export default function Home() {
   // State for selected tags and categories
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-
-  // State for copied icons (track copied state per icon)
-  const [copiedIcons, setCopiedIcons] = useState<{ [key: string]: boolean }>(
-    {},
-  );
 
   // Ref for the observer
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -67,9 +64,6 @@ export default function Home() {
 
   // Extract unique tags and categories from JSON
   const allTags = Array.from(new Set(json.icons.flatMap((icon) => icon.tag)));
-  const allCategories = Array.from(
-    new Set(json.icons.flatMap((icon) => icon.category)),
-  );
 
   // Filter icons based on search query, tags, and categories (memoized)
   const filteredIcons = useMemo(() => {
@@ -104,7 +98,7 @@ export default function Home() {
     debounce((query: string) => {
       setSearchQuery(query);
     }, 300),
-    [],
+    [setSearchQuery],
   );
 
   // Lazy loading with Intersection Observer
@@ -216,39 +210,6 @@ export default function Home() {
     );
   };
 
-  // Handle category selection
-  const handleCategoryChange = (category: string) => {
-    setSelectedCategories((prev) =>
-      prev.includes(category)
-        ? prev.filter((c) => c !== category)
-        : [...prev, category],
-    );
-  };
-
-  // Handle copy button click
-  const handleCopy = async (iconName: string) => {
-    try {
-      const iconText = `<${iconName} />`;
-      await navigator.clipboard.writeText(iconText);
-
-      // Update the copied state for the specific icon
-      setCopiedIcons((prev) => ({
-        ...prev,
-        [iconName]: true,
-      }));
-
-      // Reset the copied state after 1.5 seconds
-      setTimeout(() => {
-        setCopiedIcons((prev) => ({
-          ...prev,
-          [iconName]: false,
-        }));
-      }, 1500);
-    } catch (err) {
-      console.error("Failed to copy text: ", err);
-    }
-  };
-
   return (
     <div className="dark:bg-zinc-950">
       {/* Search Input */}
@@ -290,26 +251,6 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            {/* <div className="mt-6">
-              <h4>Categories</h4>
-              <div className="grid gap-y-5">
-                {allCategories.map((category) => (
-                  <div
-                    key={category}
-                    className="flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
-                  >
-                    <Checkbox
-                      id={`${category}`}
-                      checked={selectedCategories.includes(category)}
-                      onCheckedChange={() => handleCategoryChange(category)}
-                    />
-                    <Label htmlFor={`${category}`}>
-                      {category} ({categoryCounts[category] || 0})
-                    </Label>
-                  </div>
-                ))}
-              </div>
-            </div> */}
           </div>
         </div>
 
@@ -332,43 +273,7 @@ export default function Home() {
                       <h3 className="inline-block bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-bold text-transparent">
                         &lt;{name} /&gt;
                       </h3>
-
-                      <Button
-                        id={name}
-                        variant="outline"
-                        size="icon"
-                        className="disabled:opacity-100"
-                        onClick={() => handleCopy(name)}
-                        aria-label={
-                          copiedIcons[name] ? "Copied" : "Copy to clipboard"
-                        }
-                        disabled={copiedIcons[name]}
-                      >
-                        <div
-                          className={cn(
-                            "transition-all",
-                            copiedIcons[name]
-                              ? "scale-100 opacity-100"
-                              : "scale-0 opacity-0",
-                          )}
-                        >
-                          <icons.Check
-                            className="stroke-emerald-500"
-                            size={16}
-                            aria-hidden="true"
-                          />
-                        </div>
-                        <div
-                          className={cn(
-                            "absolute transition-all",
-                            copiedIcons[name]
-                              ? "scale-0 opacity-0"
-                              : "scale-100 opacity-100",
-                          )}
-                        >
-                          <icons.Copy size={16} aria-hidden="true" />
-                        </div>
-                      </Button>
+                      <CopyButton valueToCopy={`<${name} />`} />
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4">
