@@ -3,7 +3,7 @@ import { LoremIpsumGenerator } from "@/components/widgets/lorem-generator";
 
 export default function ToolsPage() {
   return (
-    <div>
+    <div className="mb-56">
       <ColorConverter />
       <LoremIpsumGenerator />
     </div>
