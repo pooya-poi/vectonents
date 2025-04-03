@@ -40,7 +40,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} ${vazir.variable} ${roboto.className} `}
     >
-      <body>
+      <body className="dark:bg-zinc-950">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
