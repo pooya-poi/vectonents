@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Copy, Activity } from "@pooya-poi/vectonents";
+import { Activity } from "@pooya-poi/vectonents";
 import {
   Select,
   SelectContent,
