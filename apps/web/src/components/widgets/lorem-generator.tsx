@@ -3,8 +3,15 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Copy, Activity  } from "@pooya-poi/vectonents";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Copy, Activity } from "@pooya-poi/vectonents";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import CopyButton from "../copy-button";
 
 const loremTexts = {
   english: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates voluptatum ipsum quis porro libero dolorem minima nesciunt repudiandae, non tenetur, ullam at rem qui, labore inventore velit aliquid vel.`,
@@ -13,25 +20,16 @@ const loremTexts = {
 
 const randomTexts = {
   english: `The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. How vexingly quick daft zebras jump!`,
-  
+
   farsi: `صفحه اصلی وبسایت خود را با محتوای جذاب پر کنید. این متن نمونه می‌تواند برای تست فونت و طرح‌بندی استفاده شود. طراحی رابط کاربری نیاز به محتوای واقع‌نما دارد.`,
 };
 
 export function LoremIpsumGenerator() {
   const [language, setLanguage] = useState<keyof typeof loremTexts>("english");
   const [textType, setTextType] = useState<"lorem" | "random">("lorem");
-  const [copied, setCopied] = useState(false);
-
   const getCurrentText = () => {
     return textType === "lorem" ? loremTexts[language] : randomTexts[language];
   };
-
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(getCurrentText());
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
   const generateRandomText = () => {
     setTextType("random");
   };
@@ -40,17 +38,23 @@ export function LoremIpsumGenerator() {
     setTextType("lorem");
   };
 
+  const currentText = getCurrentText();
+
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="text-center font-extrabold tracking-wider">Text Generator</CardTitle>
+        <CardTitle className="text-center font-extrabold tracking-wider">
+          Text Generator
+        </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
-        <div className="flex flex-col md:flex-row md:items-center gap-4">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center">
           <div className="w-full md:w-48">
-            <Select 
+            <Select
               value={language}
-              onValueChange={(value) => setLanguage(value as keyof typeof loremTexts)}
+              onValueChange={(value) =>
+                setLanguage(value as keyof typeof loremTexts)
+              }
             >
               <SelectTrigger>
                 <SelectValue placeholder="Select language" />
@@ -58,7 +62,6 @@ export function LoremIpsumGenerator() {
               <SelectContent>
                 <SelectItem value="english">English</SelectItem>
                 <SelectItem value="farsi">Farsi (Persian)</SelectItem>
-
               </SelectContent>
             </Select>
           </div>
@@ -81,22 +84,15 @@ export function LoremIpsumGenerator() {
           </div>
         </div>
 
-        <div className="p-4 border rounded-lg bg-muted/50">
-          <p 
-            className="whitespace-pre-wrap leading-relaxed font-vazir"
+        <div className="rounded-lg border bg-muted/50 p-4">
+          <p
+            className="font-vazir leading-relaxed whitespace-pre-wrap"
             dir={["farsi", "arabic"].includes(language) ? "rtl" : "ltr"}
           >
             {getCurrentText()}
           </p>
         </div>
-
-        <Button
-          onClick={copyToClipboard}
-          className="gap-2 w-full md:w-auto"
-        >
-          <Copy className="h-4 w-4" />
-          {copied ? "Copied!" : "Copy Text"}
-        </Button>
+        <CopyButton valueToCopy={currentText} />
       </CardContent>
     </Card>
   );
