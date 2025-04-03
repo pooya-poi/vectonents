@@ -43,7 +43,7 @@ export function LoremIpsumGenerator() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Multilingual Text Generator</CardTitle>
+        <CardTitle className="text-center font-extrabold tracking-wider">Text Generator</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="flex flex-col md:flex-row md:items-center gap-4">
@@ -83,7 +83,7 @@ export function LoremIpsumGenerator() {
 
         <div className="p-4 border rounded-lg bg-muted/50">
           <p 
-            className="whitespace-pre-wrap leading-relaxed"
+            className="whitespace-pre-wrap leading-relaxed font-vazir"
             dir={["farsi", "arabic"].includes(language) ? "rtl" : "ltr"}
           >
             {getCurrentText()}
