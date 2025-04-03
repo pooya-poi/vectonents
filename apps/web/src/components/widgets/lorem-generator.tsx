@@ -41,61 +41,64 @@ export function LoremIpsumGenerator() {
   const currentText = getCurrentText();
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle className="text-center font-extrabold tracking-wider">
-          Text Generator
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="space-y-4">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center">
-          <div className="w-full md:w-48">
-            <Select
-              value={language}
-              onValueChange={(value) =>
-                setLanguage(value as keyof typeof loremTexts)
-              }
-            >
-              <SelectTrigger className="font-vazir">
-                <SelectValue placeholder="Select language" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="english">English</SelectItem>
-                <SelectItem value="farsi" className="font-vazir">
-                  فارسی (Persian)
-                </SelectItem>
-              </SelectContent>
-            </Select>
+    <div className="mx-auto max-w-[1920px] space-y-8 p-2">
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-center font-extrabold tracking-wider">
+            Text Generator
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center">
+            <div className="w-full md:w-48">
+              <Select
+                value={language}
+                onValueChange={(value) =>
+                  setLanguage(value as keyof typeof loremTexts)
+                }
+              >
+                <SelectTrigger className="font-vazir">
+                  <SelectValue placeholder="Select language" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="english">English</SelectItem>
+                  <SelectItem value="farsi" className="font-vazir">
+                    فارسی (Persian)
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+
+            <div className="flex gap-2">
+              <Button
+                variant={textType === "lorem" ? "default" : "outline"}
+                onClick={generateLoremText}
+              >
+                Lorem Ipsum
+              </Button>
+              <Button
+                variant={textType === "random" ? "default" : "outline"}
+                onClick={generateRandomText}
+                className="gap-2"
+              >
+                <Activity className="h-4 w-4" />
+                Random Text
+              </Button>
+              <CopyButton valueToCopy={currentText} />
+            </div>
           </div>
 
-          <div className="flex gap-2">
-            <Button
-              variant={textType === "lorem" ? "default" : "outline"}
-              onClick={generateLoremText}
+          <div className="rounded-lg border bg-muted/50 p-4">
+            <p
+              className="font-vazir leading-relaxed whitespace-pre-wrap"
+              dir={["farsi", "arabic"].includes(language) ? "rtl" : "ltr"}
             >
-              Lorem Ipsum
-            </Button>
-            <Button
-              variant={textType === "random" ? "default" : "outline"}
-              onClick={generateRandomText}
-              className="gap-2"
-            >
-              <Activity className="h-4 w-4" />
-              Random Text
-            </Button>
+              {getCurrentText()}
+            </p>
           </div>
-        </div>
-
-        <div className="rounded-lg border bg-muted/50 p-4">
-          <p
-            className="font-vazir leading-relaxed whitespace-pre-wrap"
-            dir={["farsi", "arabic"].includes(language) ? "rtl" : "ltr"}
-          >
-            {getCurrentText()}
-          </p>
-        </div>
-        <CopyButton valueToCopy={currentText} />
-      </CardContent>
-    </Card>
+         
+        </CardContent>
+      </Card>
+    </div>
   );
 }
