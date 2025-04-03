@@ -56,12 +56,14 @@ export function LoremIpsumGenerator() {
                 setLanguage(value as keyof typeof loremTexts)
               }
             >
-              <SelectTrigger>
+              <SelectTrigger className="font-vazir">
                 <SelectValue placeholder="Select language" />
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="english">English</SelectItem>
-                <SelectItem value="farsi">Farsi (Persian)</SelectItem>
+                <SelectItem value="farsi" className="font-vazir">
+                  فارسی (Persian)
+                </SelectItem>
               </SelectContent>
             </Select>
           </div>
