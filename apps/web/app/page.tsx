@@ -7,7 +7,7 @@ import HeroSection from "@/components/blocks/hero-section";
 
 export default function Home() {
   return (
-    <>
+    <div className="mb-24">
       <HeroSection />
 
       {/* Why section */}
@@ -17,6 +17,6 @@ export default function Home() {
       <IconSampleSection />
 
       <Footer />
-    </>
+    </div>
   );
 }
