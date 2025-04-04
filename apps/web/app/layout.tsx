@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/provider/theme-provider";
-import { Roboto } from "next/font/google";
-import BackgroundGradient from "@/components/background-gradient";
+import { Roboto, Vazirmatn } from "next/font/google";
 import BottomDock from "@/components/widgets/bottom-dock";
 
 const roboto = Roboto({
   subsets: ["latin"],
+  display: "swap",
+});
+const vazir = Vazirmatn({
+  subsets: ["latin"],
+  variable: "--font-vazir",
   display: "swap",
 });
 
@@ -31,10 +35,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.className}`}
-      >
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${geistSans.variable} ${geistMono.variable} ${vazir.variable} ${roboto.className} `}
+    >
+      <body className="dark:bg-zinc-950">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

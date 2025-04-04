@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
-import { Home as HomeIcon, Compass, Box, Lamp } from "@pooya-poi/vectonents";
+import { Home as HomeIcon, Compass, Box, Lamp,Setting } from "@pooya-poi/vectonents";
 import {
   Tooltip,
   TooltipContent,
@@ -20,9 +20,10 @@ const DATA = {
   navbar: [
     { id: 1, href: "/", icon: HomeIcon, label: "Home" },
     { id: 2, href: "/icons", icon: Compass, label: "Icons" },
-    { id: 3, href: "/package", icon: Box, label: "Package" },
-    { id: 4, href: "/guide", icon: Lamp, label: "Guide" },
-    { id: 5, href: "#", icon: Compass, label: "Blog" },
+    { id: 3, href: "/guide", icon: Lamp, label: "Guide" },
+    { id: 4, href: "/tools", icon: Setting, label: "Tools" },
+    // { id: 3, href: "/package", icon: Box, label: "Package" },
+    // { id: 5, href: "#", icon: Compass, label: "Blog" },
   ],
 };
 
