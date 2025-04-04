@@ -112,7 +112,7 @@ export function ScriptCopyBtn({
           <div className="min-w-[300px] grow font-mono">
             {highlightedCode ? (
               <div
-                className={`[&>pre]:overflow-x-auto [&>pre]:rounded-md [&>pre]:p-2 [&>pre]:px-4 [&>pre]:font-mono ${
+                className={`[&>pre]:overflow-x-auto border rounded-md [&>pre]:rounded-md [&>pre]:p-2 [&>pre]:px-4 [&>pre]:font-mono ${
                   theme === "dark" ? "dark" : "light"
                 }`}
                 dangerouslySetInnerHTML={{ __html: highlightedCode }}
