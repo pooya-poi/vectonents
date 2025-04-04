@@ -11,10 +11,6 @@ const links = [
     url: "/icons",
   },
   {
-    title: "Package",
-    url: "/package",
-  },
-  {
     title: "Guide",
     url: "/guide",
   },
@@ -40,8 +36,8 @@ const Footer: React.FC = () => (
       </ul>
     </div>
     <div className="order-3 flex items-center justify-center gap-x-5">
-      <Link href="#">npm</Link>
-      <Link href="#">github</Link>
+      <Link target="_blank" href="https://www.npmjs.com/package/@pooya-poi/vectonents?activeTab=readme">npm</Link>
+      <Link target="_blank" href="https://github.com/pooya-poi/vectonents">github</Link>
     </div>
   </footer>
 );
