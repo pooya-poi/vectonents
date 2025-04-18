@@ -368,7 +368,7 @@ export { default as Telewebion } from "./Telewebion";
 export { default as Tesla } from "./Tesla";
 export { default as Tipax } from "./Tipax";
 export { default as Torob } from "./Torob";
-export { default as ToseeiInsurance } from "./ToseeiInsurance";
+export { default as ToseeInsurance } from "./ToseeInsurance";
 export { default as ToseeTaavonBank } from "./ToseeTaavonBank";
 export { default as Trash } from "./Trash";
 export { default as TrendingDown } from "./TrendingDown";
