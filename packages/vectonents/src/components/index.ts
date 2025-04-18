@@ -55,7 +55,6 @@ export { default as BatteryMedium } from "./BatteryMedium";
 export { default as Bazar } from "./Bazar";
 export { default as Behance } from "./Behance";
 export { default as Bell } from "./Bell";
-export { default as Bime } from "./Bime";
 export { default as BimeBazar } from "./BimeBazar";
 export { default as BimehCom } from "./BimehCom";
 export { default as Blu } from "./Blu";
