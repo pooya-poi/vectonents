@@ -2,1267 +2,2455 @@
   "icons": [
     {
       "id": 1,
+      "name": "Achareh",
+      "tag": ["persian icon"],
+      "category": []
+    },
+    {
+      "id": 2,
       "name": "Activity",
       "tag": [],
       "category": []
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "AddDocument",
       "tag": ["addition", "file"],
       "category": ["file management"]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "AddPerson",
       "tag": ["addition"],
       "category": []
     },
     {
-      "id": 4,
+      "id": 5,
+      "name": "Aio",
+      "tag": ["persian icon"],
+      "category": []
+    },
+    {
+      "id": 6,
       "name": "Airpod",
       "tag": [],
       "category": []
     },
     {
-      "id": 5,
+      "id": 7,
       "name": "AirpodCase",
       "tag": [],
       "category": []
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Alarm",
       "tag": [],
       "category": []
     },
     {
-      "id": 7,
-      "name": "AlertOctagon",
-      "tag": [],
-      "category": []
-    },
-    {
-      "id": 8,
-      "name": "AlertTriangle",
-      "tag": [],
-      "category": []
-    },
-    {
       "id": 9,
-      "name": "Anchor",
-      "tag": [],
+      "name": "Alborz",
+      "tag": ["persian icon", "persian insurance"],
       "category": []
     },
     {
       "id": 10,
-      "name": "Archive",
+      "name": "AlborzInsurance",
       "tag": [],
       "category": []
     },
     {
       "id": 11,
+      "name": "AlertOctagon",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 12,
+      "name": "AlertTriangle",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 13,
+      "name": "Algolia",
+      "tag": ["tech", "programing"],
+      "category": []
+    },
+    {
+      "id": 14,
+      "name": "Alibaba",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 15,
+      "name": "Alopeik",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 16,
+      "name": "Amazon",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 17,
+      "name": "Anardooni",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 18,
+      "name": "Anchor",
+      "tag": ["misc"],
+      "category": []
+    },
+    {
+      "id": 19,
+      "name": "Android",
+      "tag": ["tech", "programing"],
+      "category": []
+    },
+    {
+      "id": 20,
+      "name": "Angular",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 21,
+      "name": "Ansar",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 22,
+      "name": "Anten",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 23,
+      "name": "Aparat",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 24,
+      "name": "AparatKodak",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 25,
+      "name": "AparatSport",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 26,
+      "name": "Apple",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 27,
+      "name": "Archive",
+      "tag": ["misc"],
+      "category": []
+    },
+    {
+      "id": 28,
+      "name": "ArmanInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 29,
       "name": "ArrowDown",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 12,
+      "id": 30,
       "name": "ArrowLeft",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 13,
+      "id": 31,
       "name": "ArrowLeftDown",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 14,
+      "id": 32,
       "name": "ArrowRight",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 15,
+      "id": 33,
       "name": "ArrowRightDown",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 16,
+      "id": 34,
       "name": "ArrowRightLeft",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 17,
+      "id": 35,
       "name": "ArrowRightUp",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 18,
+      "id": 36,
       "name": "ArrowUp",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 19,
+      "id": 37,
       "name": "ArrowUpDown",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 20,
+      "id": 38,
       "name": "ArrowUpDownCorner",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 21,
+      "id": 39,
       "name": "ArrowUpLeft",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 22,
+      "id": 40,
+      "name": "AsanPardakht",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 41,
+      "name": "AsiaInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 42,
+      "name": "Asiatech",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 43,
+      "name": "Aws",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 44,
+      "name": "Ayandeh",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 45,
+      "name": "Azki",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 46,
       "name": "Backwards",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 23,
+      "id": 47,
+      "name": "Balad",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 48,
+      "name": "Banimode",
+      "tag": ["persian icon"],
+      "category": []
+    },
+    {
+      "id": 49,
+      "name": "Basalam",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 50,
+      "name": "Bash",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 51,
       "name": "Battery",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 24,
+      "id": 52,
       "name": "BatteryFull",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 25,
+      "id": 53,
       "name": "BatteryLow",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 26,
+      "id": 54,
       "name": "BatteryMedium",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 27,
+      "id": 55,
+      "name": "Bazar",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 56,
       "name": "Behance",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
-      "id": 28,
+      "id": 57,
       "name": "Bell",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 29,
+      "id": 58,
+      "name": "Bime",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 59,
+      "name": "BimeBazar",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 60,
+      "name": "BimehCom",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 61,
+      "name": "Blu",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 62,
       "name": "Bluetooth",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 30,
+      "id": 63,
       "name": "Board",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 31,
+      "id": 64,
       "name": "Book",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 32,
+      "id": 65,
       "name": "Bookmark",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 33,
+      "id": 66,
       "name": "Box",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 34,
+      "id": 67,
       "name": "BoxAdd",
       "tag": ["addition"],
       "category": []
     },
     {
-      "id": 35,
+      "id": 68,
       "name": "BoxFav",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 36,
+      "id": 69,
       "name": "BoxSearch",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 37,
+      "id": 70,
       "name": "BrokenDocument",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 38,
+      "id": 71,
       "name": "Brush",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 39,
+      "id": 72,
       "name": "Calendar",
       "tag": [],
       "category": []
     },
     {
-      "id": 40,
+      "id": 73,
       "name": "Camera",
       "tag": [],
       "category": []
     },
     {
-      "id": 41,
+      "id": 74,
+      "name": "CaspianBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 75,
       "name": "Cast",
       "tag": [],
       "category": []
     },
     {
-      "id": 42,
+      "id": 76,
       "name": "ChargingBattrey",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 43,
+      "id": 77,
       "name": "Chat",
       "tag": [],
       "category": []
     },
     {
-      "id": 44,
+      "id": 78,
       "name": "Check",
       "tag": [],
       "category": []
     },
     {
-      "id": 45,
+      "id": 79,
       "name": "ChevronLeft",
-      "tag": [],
+      "tag": ["chevron"],
       "category": []
     },
     {
-      "id": 46,
+      "id": 80,
       "name": "ChevronRight",
-      "tag": [],
+      "tag": ["chevron"],
       "category": []
     },
     {
-      "id": 47,
+      "id": 81,
       "name": "ChevronUp",
-      "tag": [],
+      "tag": ["chevron"],
       "category": []
     },
     {
-      "id": 48,
+      "id": 82,
+      "name": "CLang",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 83,
       "name": "Click",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 49,
+      "id": 84,
       "name": "Clipboard",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 50,
+      "id": 85,
       "name": "Clock",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 51,
+      "id": 86,
       "name": "Close",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 52,
+      "id": 87,
       "name": "CloseRectangle",
       "tag": [],
       "category": []
     },
     {
-      "id": 53,
+      "id": 88,
+      "name": "Codepen",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 89,
       "name": "Command",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 54,
+      "id": 90,
       "name": "Compass",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 55,
+      "id": 91,
       "name": "Copy",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 56,
+      "id": 92,
       "name": "CopyDocument",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 57,
+      "id": 93,
       "name": "CornerUpArrowLeft",
-      "tag": ["arrow"],
+      "tag": ["arrow", "chevron"],
       "category": []
     },
     {
-      "id": 58,
+      "id": 94,
       "name": "CornerUpArrowRight",
-      "tag": ["arrow"],
+      "tag": ["arrow", "chevron"],
       "category": []
     },
     {
-      "id": 59,
+      "id": 95,
+      "name": "Cpp",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 96,
       "name": "Cpu",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 60,
+      "id": 97,
       "name": "CreditCard",
       "tag": ["modification"],
       "category": []
     },
     {
-      "id": 61,
+      "id": 98,
       "name": "Crop",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 62,
+      "id": 99,
+      "name": "CSharp",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 100,
+      "name": "DanaInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 101,
       "name": "Delete",
       "tag": [],
       "category": []
     },
     {
-      "id": 63,
+      "id": 102,
       "name": "Delivery",
       "tag": [],
       "category": []
     },
     {
-      "id": 64,
+      "id": 103,
       "name": "DeliveryTime",
       "tag": [],
       "category": []
     },
     {
-      "id": 65,
+      "id": 104,
+      "name": "DeyBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 105,
+      "name": "DeyInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 106,
+      "name": "Digikala",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 107,
+      "name": "DigikalaJet",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 108,
+      "name": "DigiPay",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 109,
       "name": "DisabledBell",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 66,
+      "id": 110,
+      "name": "Discord",
+      "tag": ["socialmedia"],
+      "category": []
+    },
+    {
+      "id": 111,
       "name": "Discount",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 67,
+      "id": 112,
+      "name": "Divar",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 113,
+      "name": "Django",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 114,
+      "name": "Docker",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 115,
       "name": "Document",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 68,
+      "id": 116,
       "name": "DocumentEdit",
       "tag": ["modification", "file"],
       "category": ["file management"]
     },
     {
-      "id": 69,
+      "id": 117,
       "name": "DocumentFav",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 70,
+      "id": 118,
       "name": "DocumentHistory",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 71,
+      "id": 119,
       "name": "DocumentSecure",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 72,
+      "id": 120,
       "name": "Download",
       "tag": ["transfer"],
       "category": ["file transfer"]
     },
     {
-      "id": 73,
+      "id": 121,
       "name": "Dribbble",
-      "tag": [],
+      "tag": ["web/application"],
       "category": []
     },
     {
-      "id": 74,
+      "id": 122,
+      "name": "Dropbox",
+      "tag": ["web/application"],
+      "category": []
+    },
+    {
+      "id": 123,
       "name": "Edit",
       "tag": ["modification"],
       "category": []
     },
     {
-      "id": 75,
+      "id": 124,
       "name": "EditAnchorPoint",
       "tag": ["modification"],
       "category": []
     },
     {
-      "id": 76,
+      "id": 125,
       "name": "EditFolder",
       "tag": ["modification"],
       "category": []
     },
     {
-      "id": 77,
+      "id": 126,
+      "name": "Eghtesad",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 127,
       "name": "Email",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 78,
+      "id": 128,
       "name": "EmailNotice",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 79,
+      "id": 129,
       "name": "EmailOpen",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 80,
+      "id": 130,
       "name": "Eraser",
-      "tag": [],
+      "tag": ["misc", "modification"],
       "category": []
     },
     {
-      "id": 81,
+      "id": 131,
+      "name": "Erlang",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 132,
+      "name": "Eseminar",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 133,
       "name": "Expand",
       "tag": [],
       "category": []
     },
     {
-      "id": 82,
+      "id": 134,
       "name": "ExternalLink",
       "tag": [],
       "category": []
     },
     {
-      "id": 83,
+      "id": 135,
       "name": "Eye",
       "tag": [],
       "category": []
     },
     {
-      "id": 84,
+      "id": 136,
       "name": "Facebook",
-      "tag": [],
+      "tag": ["web/application"],
       "category": []
     },
     {
-      "id": 85,
+      "id": 137,
+      "name": "Fidibo",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 138,
       "name": "Figma",
-      "tag": [],
+      "tag": ["programing", "web/application"],
       "category": []
     },
     {
-      "id": 86,
+      "id": 139,
+      "name": "Filimo",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 140,
+      "name": "Filmnet",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 141,
       "name": "Filter",
       "tag": [],
       "category": []
     },
     {
-      "id": 87,
+      "id": 142,
       "name": "Flag",
       "tag": [],
       "category": []
     },
     {
-      "id": 88,
+      "id": 143,
       "name": "Flame",
       "tag": [],
       "category": []
     },
     {
-      "id": 89,
+      "id": 144,
+      "name": "Flightio",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 145,
       "name": "Flopy",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 90,
+      "id": 146,
+      "name": "Flutter",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 147,
+      "name": "Flytoday",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 148,
       "name": "Folder",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 91,
+      "id": 149,
       "name": "FolderContent",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 92,
+      "id": 150,
       "name": "FolderDetails",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 93,
+      "id": 151,
       "name": "FolderInfo",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 94,
+      "id": 152,
       "name": "FolderLocked",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 95,
+      "id": 153,
       "name": "FolderMarked",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 96,
+      "id": 154,
       "name": "FolderSecure",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 97,
+      "id": 155,
       "name": "FolderShared",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 98,
+      "id": 156,
       "name": "FolderSync",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 99,
+      "id": 157,
       "name": "Forward",
       "tag": [],
       "category": []
     },
     {
-      "id": 100,
+      "id": 158,
+      "name": "GardeshgariBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 159,
+      "name": "GhavaminBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 160,
+      "name": "Github",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 161,
+      "name": "Go",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 162,
+      "name": "Google",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 163,
       "name": "Gramophone",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 101,
+      "id": 164,
       "name": "Grid",
-      "tag": [],
-      "category": []
+      "tag": ["layout"],
+      "category": ["layout"]
     },
     {
-      "id": 102,
+      "id": 165,
       "name": "GroupPerson",
       "tag": [],
       "category": []
     },
     {
-      "id": 103,
+      "id": 166,
+      "name": "HamrahAvval",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 167,
       "name": "HandyGame",
       "tag": [],
       "category": []
     },
     {
-      "id": 104,
+      "id": 168,
       "name": "Heart",
       "tag": [],
       "category": []
     },
     {
-      "id": 105,
+      "id": 169,
+      "name": "HekmatBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 170,
+      "name": "Hiweb",
+      "tag": ["operator"],
+      "category": []
+    },
+    {
+      "id": 171,
       "name": "Home",
       "tag": [],
       "category": []
     },
     {
-      "id": 106,
+      "id": 172,
+      "name": "Huawei",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 173,
+      "name": "Iapps",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 174,
+      "name": "Idpay",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 175,
       "name": "Imac",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 107,
+      "id": 176,
       "name": "Image",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 108,
+      "id": 177,
       "name": "Inbox",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 109,
+      "id": 178,
       "name": "InfoCircle",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 110,
+      "id": 179,
       "name": "InfoRectangle",
       "tag": [],
       "category": []
     },
     {
-      "id": 111,
+      "id": 180,
       "name": "Information",
       "tag": [],
       "category": []
     },
     {
-      "id": 112,
+      "id": 181,
       "name": "Instagram",
-      "tag": [],
+      "tag": ["socialmedia"],
       "category": []
     },
     {
-      "id": 113,
+      "id": 182,
       "name": "Instant",
       "tag": [],
       "category": []
     },
     {
-      "id": 114,
+      "id": 183,
       "name": "Ipad",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 115,
+      "id": 184,
       "name": "Iphone",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 116,
+      "id": 185,
+      "name": "Irancell",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 186,
+      "name": "Iranicard",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 187,
+      "name": "IranVenezuelaBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 188,
+      "name": "IranZaminBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 189,
+      "name": "Jabama",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 190,
+      "name": "Jobvision",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 191,
       "name": "Joystick",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 117,
+      "id": 192,
+      "name": "KarafarinBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 193,
+      "name": "KarafarinInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 194,
+      "name": "Karname",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 195,
+      "name": "KeshavarziBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 196,
       "name": "Key",
       "tag": [],
       "category": []
     },
     {
-      "id": 118,
+      "id": 197,
       "name": "Keyboard",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 119,
+      "id": 198,
       "name": "KeyboardClose",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 120,
+      "id": 199,
       "name": "KeyboardOpen",
-      "tag": [],
+      "tag": ["chevron"],
       "category": []
     },
     {
-      "id": 121,
+      "id": 200,
       "name": "Keypad",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 122,
+      "id": 201,
+      "name": "Khanoumi",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 202,
+      "name": "KhavarMianehBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 203,
+      "name": "KosarBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 204,
+      "name": "KosarInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 205,
+      "name": "Kubernetes",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 206,
       "name": "Lamp",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 123,
+      "id": 207,
+      "name": "Laravel",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 208,
       "name": "Layer",
       "tag": [],
       "category": []
     },
     {
-      "id": 124,
+      "id": 209,
       "name": "Linkedin",
-      "tag": [],
+      "tag": ["socialmedia"],
       "category": []
     },
     {
-      "id": 125,
+      "id": 210,
       "name": "ListCaption",
       "tag": [],
       "category": []
     },
     {
-      "id": 126,
+      "id": 211,
       "name": "Loader",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 127,
+      "id": 212,
       "name": "Location",
       "tag": [],
       "category": []
     },
     {
-      "id": 128,
+      "id": 213,
       "name": "Lock",
       "tag": [],
       "category": []
     },
     {
-      "id": 129,
+      "id": 214,
       "name": "Magnifier",
       "tag": [],
       "category": []
     },
     {
-      "id": 130,
+      "id": 215,
+      "name": "MaInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 216,
+      "name": "Maktabkhoone",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 217,
+      "name": "MarkaziBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 218,
+      "name": "MarkaziInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 219,
       "name": "Marker",
       "tag": [],
       "category": []
     },
     {
-      "id": 131,
+      "id": 220,
+      "name": "MaskanBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 221,
+      "name": "Mastercard",
+      "tag": ["payment"],
+      "category": []
+    },
+    {
+      "id": 222,
+      "name": "MehrEghtesad",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 223,
+      "name": "MehrIran",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 224,
+      "name": "MelallBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 225,
+      "name": "MellatBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 226,
+      "name": "MellatInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 227,
+      "name": "MelliBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 228,
       "name": "Menu",
       "tag": [],
       "category": []
     },
     {
-      "id": 132,
+      "id": 229,
+      "name": "Miare",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 230,
       "name": "Microphone",
       "tag": [],
       "category": []
     },
     {
-      "id": 133,
+      "id": 231,
+      "name": "Microsoft",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 232,
+      "name": "Mili",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 233,
       "name": "Minimize",
       "tag": [],
       "category": []
     },
     {
-      "id": 134,
+      "id": 234,
       "name": "Minus",
       "tag": [],
       "category": []
     },
     {
-      "id": 135,
+      "id": 235,
       "name": "MinusCircle",
       "tag": [],
       "category": []
     },
     {
-      "id": 136,
+      "id": 236,
+      "name": "MoalemInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 237,
+      "name": "Mobinnet",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 238,
       "name": "Moon",
       "tag": [],
       "category": []
     },
     {
-      "id": 137,
+      "id": 239,
       "name": "Mouse",
       "tag": [],
       "category": []
     },
     {
-      "id": 138,
+      "id": 240,
+      "name": "Mrbillit",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 241,
       "name": "Mug",
       "tag": [],
       "category": []
     },
     {
-      "id": 139,
+      "id": 242,
       "name": "MultiFolder",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 140,
+      "id": 243,
       "name": "MusicNote",
       "tag": [],
       "category": []
     },
     {
-      "id": 141,
+      "id": 244,
+      "name": "Myket",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 245,
+      "name": "Namava",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 246,
+      "name": "Neshan",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 247,
       "name": "Next",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
-      "id": 142,
+      "id": 248,
+      "name": "Nextjs",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 249,
+      "name": "NextPay",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 250,
+      "name": "Nobitex",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 251,
+      "name": "Nodejs",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 252,
+      "name": "NoorBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 253,
       "name": "Notebook",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 143,
+      "id": 254,
+      "name": "NovinInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 255,
+      "name": "Npm",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 256,
       "name": "OpenedFolder",
-      "tag": [],
+      "tag": ["file"],
       "category": []
     },
     {
-      "id": 144,
+      "id": 257,
+      "name": "Otaghak",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 258,
+      "name": "ParsianBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 259,
+      "name": "ParsianInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 260,
+      "name": "Parsonline",
+      "tag": ["persian icon","operator"],
+      "category": []
+    },
+    {
+      "id": 261,
+      "name": "PasargadBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 262,
+      "name": "PasargadInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 263,
+      "name": "PasargadPay",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 264,
       "name": "Pause",
       "tag": [],
       "category": []
     },
     {
-      "id": 145,
+      "id": 265,
+      "name": "Payfa",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 266,
+      "name": "Paypal",
+      "tag": ["payment"],
+      "category": []
+    },
+    {
+      "id": 267,
+      "name": "Payping",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 268,
       "name": "Pen",
       "tag": [],
       "category": []
     },
     {
-      "id": 146,
+      "id": 269,
       "name": "Person",
       "tag": [],
       "category": []
     },
     {
-      "id": 147,
+      "id": 270,
       "name": "PhonePc",
       "tag": [],
       "category": []
     },
     {
-      "id": 148,
+      "id": 271,
       "name": "Pin",
       "tag": [],
       "category": []
     },
     {
-      "id": 149,
+      "id": 272,
+      "name": "Pishgaman",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 273,
       "name": "Play",
       "tag": [],
       "category": []
     },
     {
-      "id": 150,
+      "id": 274,
       "name": "PlayPause",
       "tag": [],
       "category": []
     },
     {
-      "id": 151,
+      "id": 275,
+      "name": "Playstation",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 276,
       "name": "PlaystationXO",
       "tag": [],
       "category": []
     },
     {
-      "id": 152,
+      "id": 277,
       "name": "Pluse",
       "tag": [],
       "category": []
     },
     {
-      "id": 153,
+      "id": 278,
       "name": "PluseCircle",
       "tag": [],
       "category": []
     },
     {
-      "id": 154,
+      "id": 279,
       "name": "PluseRegtangle",
       "tag": ["profile", "account"],
       "category": ["user management"]
     },
     {
-      "id": 155,
+      "id": 280,
+      "name": "Ponisha",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 281,
+      "name": "Post",
+      "tag": ["persian icon"],
+      "category": []
+    },
+    {
+      "id": 282,
+      "name": "PostIran",
+      "tag": ["persian icon"],
+      "category": []
+    },
+    {
+      "id": 283,
       "name": "Previous",
       "tag": [],
       "category": []
     },
     {
-      "id": 156,
-      "name": "Radio",
-      "tag": [],
+      "id": 284,
+      "name": "Python",
+      "tag": ["programing"],
       "category": []
     },
     {
-      "id": 157,
+      "id": 285,
+      "name": "Qrcode",
+      "tag": ["misc"],
+      "category": []
+    },
+    {
+      "id": 286,
+      "name": "Raastchin",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 287,
+      "name": "RaaziInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 288,
+      "name": "Radio",
+      "tag": ["misc"],
+      "category": []
+    },
+    {
+      "id": 289,
+      "name": "Raychat",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 290,
+      "name": "Reactjs",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 291,
       "name": "Receive",
       "tag": [],
       "category": []
     },
     {
-      "id": 158,
-      "name": "RemoveFolder",
-      "tag": ["deletion"],
+      "id": 292,
+      "name": "Reddit",
+      "tag": ["socialmedia"],
       "category": []
     },
     {
-      "id": 159,
+      "id": 293,
+      "name": "RefahBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 294,
+      "name": "RemoveFolder",
+      "tag": ["deletion", "file"],
+      "category": []
+    },
+    {
+      "id": 295,
       "name": "Reply",
       "tag": [],
       "category": []
     },
     {
-      "id": 160,
+      "id": 296,
+      "name": "ResalatBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 297,
       "name": "Resize",
       "tag": [],
       "category": []
     },
     {
-      "id": 161,
+      "id": 298,
       "name": "RetryRefresh",
       "tag": [],
       "category": []
     },
     {
-      "id": 162,
+      "id": 299,
+      "name": "Rightel",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 300,
       "name": "RightPosition",
       "tag": [],
       "category": []
     },
     {
-      "id": 163,
+      "id": 301,
       "name": "Rotate",
       "tag": [],
       "category": []
     },
     {
-      "id": 164,
+      "id": 302,
+      "name": "Rust",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 303,
+      "name": "Sabanet",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 304,
+      "name": "Sadad",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 305,
+      "name": "SaderatBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 306,
+      "name": "SamanBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 307,
+      "name": "SamanInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 308,
+      "name": "SamanKish",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 309,
+      "name": "Samsung",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 310,
+      "name": "SanatMadanBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 311,
       "name": "SandClock",
       "tag": [],
       "category": []
     },
     {
-      "id": 165,
-      "name": "SdCard",
-      "tag": [],
+      "id": 312,
+      "name": "SarmayehBank",
+      "tag": ["persian icon", "persian bank"],
       "category": []
     },
     {
-      "id": 166,
+      "id": 313,
+      "name": "SdCard",
+      "tag": ["computer"],
+      "category": []
+    },
+    {
+      "id": 314,
       "name": "SearchDocument",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 167,
+      "id": 315,
       "name": "Send",
       "tag": [],
       "category": []
     },
     {
-      "id": 168,
+      "id": 316,
+      "name": "Sep",
+      "tag": ["persian icon", "payment"],
+      "category": []
+    },
+    {
+      "id": 317,
+      "name": "SepahBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 318,
       "name": "Setting",
       "tag": [],
       "category": []
     },
     {
-      "id": 169,
+      "id": 319,
+      "name": "ShahrBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 320,
       "name": "Share",
       "tag": [],
       "category": []
     },
     {
-      "id": 170,
+      "id": 321,
+      "name": "Shatel",
+      "tag": ["persian icon", "operator"],
+      "category": []
+    },
+    {
+      "id": 322,
+      "name": "Sheypoor",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 323,
       "name": "Shield",
       "tag": [],
       "category": []
     },
     {
-      "id": 171,
+      "id": 324,
       "name": "Shop",
-      "tag": [],
+      "tag": ["shopping"],
       "category": []
     },
     {
-      "id": 172,
+      "id": 325,
       "name": "ShopKeeper",
-      "tag": [],
+      "tag": ["shopping"],
       "category": []
     },
     {
-      "id": 173,
+      "id": 326,
       "name": "Shopping",
-      "tag": [],
+      "tag": ["shopping"],
       "category": []
     },
     {
-      "id": 174,
+      "id": 327,
       "name": "ShoppingBag",
-      "tag": [],
+      "tag": ["shopping"],
       "category": []
     },
     {
-      "id": 175,
+      "id": 328,
       "name": "ShoppingCart",
-      "tag": [],
+      "tag": ["shopping"],
       "category": []
     },
     {
-      "id": 176,
+      "id": 329,
       "name": "ShoppingCartHandy",
-      "tag": [],
+      "tag": ["shopping"],
       "category": []
     },
     {
-      "id": 177,
+      "id": 330,
       "name": "Shredder",
-      "tag": [],
+      "tag": ["misc"],
       "category": []
     },
     {
-      "id": 178,
+      "id": 331,
+      "name": "Sibapp",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 332,
       "name": "Signal",
       "tag": [],
       "category": []
     },
     {
-      "id": 179,
+      "id": 333,
       "name": "Simcard",
       "tag": [],
       "category": []
     },
     {
-      "id": 180,
+      "id": 334,
+      "name": "SinaBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 335,
+      "name": "SinaInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 336,
+      "name": "Slack",
+      "tag": ["socialmedia"],
+      "category": []
+    },
+    {
+      "id": 337,
+      "name": "Snapp",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 338,
+      "name": "SnapPay",
+      "tag": ["persian icon", "payment", "web/application"],
+      "category": []
+    },
+    {
+      "id": 339,
+      "name": "SnappDoctor",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 340,
+      "name": "SnappFood",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 341,
+      "name": "SnappTrip",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 342,
       "name": "Sort",
       "tag": [],
       "category": []
     },
     {
-      "id": 181,
+      "id": 343,
       "name": "SpaceShuttle",
       "tag": [],
       "category": []
     },
     {
-      "id": 182,
+      "id": 344,
       "name": "Speaker",
       "tag": [],
       "category": []
     },
     {
-      "id": 183,
+      "id": 345,
+      "name": "Spotify",
+      "tag": ["web/application"],
+      "category": []
+    },
+    {
+      "id": 346,
       "name": "SquerArrowDownLeft",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 184,
+      "id": 347,
       "name": "SquerArrowDownRight",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 185,
+      "id": 348,
       "name": "SquerArrowUpLeft",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 186,
+      "id": 349,
       "name": "SquerArrowUpRight",
       "tag": ["arrow"],
       "category": []
     },
     {
-      "id": 187,
+      "id": 350,
+      "name": "Stackoverflow",
+      "tag": ["programing","socialmedia","tech"],
+      "category": []
+    },
+    {
+      "id": 351,
       "name": "Star",
       "tag": [],
       "category": []
     },
     {
-      "id": 188,
+      "id": 352,
       "name": "Sun",
       "tag": [],
       "category": []
     },
     {
-      "id": 189,
+      "id": 353,
+      "name": "Swift",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 354,
       "name": "SyncDocument",
       "tag": ["file"],
       "category": ["file management"]
     },
     {
-      "id": 190,
+      "id": 355,
       "name": "SyncRetry",
       "tag": [],
       "category": []
     },
     {
-      "id": 191,
+      "id": 356,
+      "name": "TaavonInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 357,
       "name": "Tag",
       "tag": [],
       "category": []
     },
     {
-      "id": 192,
+      "id": 358,
+      "name": "Taghche",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 359,
+      "name": "Takhfifan",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 360,
+      "name": "Tamasha",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 361,
+      "name": "Tapsi",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 362,
+      "name": "Tecاnolife",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 363,
+      "name": "TejaratBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 364,
+      "name": "Telegram",
+      "tag": ["socialmedia"],
+      "category": []
+    },
+    {
+      "id": 365,
       "name": "Telephone",
       "tag": [],
       "category": []
     },
     {
-      "id": 193,
+      "id": 366,
+      "name": "Telewebion",
+      "tag": ["persian icon", "vod"],
+      "category": []
+    },
+    {
+      "id": 367,
+      "name": "Tesla",
+      "tag": ["tech"],
+      "category": []
+    },
+    {
+      "id": 368,
+      "name": "Tipax",
+      "tag": ["persian icon"],
+      "category": []
+    },
+    {
+      "id": 369,
+      "name": "Torob",
+      "tag": ["persian icon", "web/application"],
+      "category": []
+    },
+    {
+      "id": 370,
+      "name": "ToseeiInsurance",
+      "tag": ["persian icon", "persian insurance"],
+      "category": []
+    },
+    {
+      "id": 371,
+      "name": "ToseeTaavonBank",
+      "tag": ["persian icon", "persian bank"],
+      "category": []
+    },
+    {
+      "id": 372,
       "name": "Trash",
       "tag": [],
       "category": []
     },
     {
-      "id": 194,
+      "id": 373,
       "name": "TrendingDown",
       "tag": [],
       "category": []
     },
     {
-      "id": 195,
+      "id": 374,
       "name": "TrendingUp",
       "tag": [],
       "category": []
     },
     {
-      "id": 196,
+      "id": 375,
       "name": "Tv",
       "tag": [],
       "category": []
     },
     {
-      "id": 197,
-      "name": "Twitter",
-      "tag": [],
+      "id": 376,
+      "name": "Twitch",
+      "tag": ["socialmedia"],
       "category": []
     },
     {
-      "id": 198,
+      "id": 377,
+      "name": "Twitter",
+      "tag": ["socialmedia"],
+      "category": []
+    },
+    {
+      "id": 378,
       "name": "TwoPerson",
       "tag": [],
       "category": []
     },
     {
-      "id": 199,
+      "id": 379,
       "name": "TypeC",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
-      "id": 200,
+      "id": 380,
       "name": "Unavailable",
       "tag": [],
       "category": []
     },
     {
-      "id": 201,
+      "id": 381,
+      "name": "Unity",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 382,
       "name": "Unlock",
       "tag": [],
       "category": []
     },
     {
-      "id": 202,
+      "id": 383,
+      "name": "UnrealEngin",
+      "tag": ["programing"],
+      "category": []
+    },
+    {
+      "id": 384,
       "name": "Usb",
+      "tag": ["computer"],
+      "category": []
+    },
+    {
+      "id": 385,
+      "name": "Vandar",
       "tag": [],
       "category": []
     },
     {
-      "id": 203,
+      "id": 386,
+      "name": "Visacard",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 387,
       "name": "Volume",
       "tag": [],
       "category": []
     },
     {
-      "id": 204,
+      "id": 388,
       "name": "VolumeDown",
       "tag": [],
       "category": []
     },
     {
-      "id": 205,
+      "id": 389,
       "name": "VolumeUp",
       "tag": [],
       "category": []
     },
     {
-      "id": 206,
+      "id": 390,
       "name": "VrGlasses",
       "tag": [],
       "category": []
     },
     {
-      "id": 207,
+      "id": 391,
+      "name": "Vuejs",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 392,
       "name": "Wallet",
       "tag": [],
       "category": []
     },
     {
-      "id": 208,
+      "id": 393,
       "name": "Watch",
       "tag": [],
       "category": []
     },
     {
-      "id": 209,
+      "id": 394,
+      "name": "Whatsapp",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 395,
+      "name": "Whmcs",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 396,
       "name": "Wifi",
       "tag": [],
       "category": []
     },
     {
-      "id": 210,
+      "id": 397,
+      "name": "Woocommerce",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 398,
+      "name": "Wordpress",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 399,
       "name": "World",
       "tag": [],
       "category": []
     },
     {
-      "id": 211,
+      "id": 400,
+      "name": "Xbox",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 401,
+      "name": "Xcom",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 402,
+      "name": "Xiaomi",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 403,
+      "name": "Yarn",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 404,
+      "name": "Youtube",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 405,
       "name": "Zap",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 406,
+      "name": "Zarinpal",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 407,
+      "name": "Zhaket",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 408,
+      "name": "Zibal",
+      "tag": [],
+      "category": []
+    },
+    {
+      "id": 409,
+      "name": "Zitel",
       "tag": [],
       "category": []
     }
