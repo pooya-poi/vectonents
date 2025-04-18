@@ -9,6 +9,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import Iconicool from "../../public/images/iconicool-figma.png";
+import PersianBrands from "../../public/images/400-persian-brands.png";
 
 export default function GuidePage() {
   const customCommandMap = {
@@ -17,7 +18,7 @@ export default function GuidePage() {
     yarn: "yarn add @pooya-poi/vectonents",
   };
   return (
-    <div className="container mx-auto mb-56 md:w-3xl max-w-[1920px] space-y-8 p-2">
+    <div className="container mx-auto mb-56 max-w-[1920px] space-y-8 p-2 md:w-3xl">
       {/* what is */}
       <Card>
         <CardHeader className="font-bold">What is Vectonent?</CardHeader>
@@ -55,7 +56,11 @@ export default function GuidePage() {
           For this library, we have used the following sources for icons:
           <ul className="list-disc pl-4">
             <li className="my-2">
-              <Link href="https://www.figma.com/@whale_design" target="_blank">
+              <Link
+                className="text-indigo-500"
+                href="https://www.figma.com/@whale_design"
+                target="_blank"
+              >
                 Iconicool
                 <Image
                   alt="iconcool in figma"
@@ -64,9 +69,34 @@ export default function GuidePage() {
                   height={500}
                   className="rounded-md"
                 ></Image>
-              </Link>{" "}
+              </Link>
             </li>
-            <li className="my-2">soon...</li>
+            <li className="my-2">
+              <Link
+                href="https://www.figma.com/community/file/1455474071182501105"
+                target="_blank"
+                className="text-indigo-500"
+              >
+                400 Persian Brands- v1.0
+                <Image
+                  alt="400 Persian Brands"
+                  src={PersianBrands}
+                  width={500}
+                  height={500}
+                  className="rounded-md"
+                ></Image>
+              </Link>
+            </li>
+            <li className="my-2">
+              <Link
+                className="text-indigo-500"
+                href="https://icons8.com/"
+                target="_blank"
+              >
+                Icons8
+              </Link>
+            </li>
+            <li className="my-2">the internet</li>
           </ul>
         </CardContent>
       </Card>
