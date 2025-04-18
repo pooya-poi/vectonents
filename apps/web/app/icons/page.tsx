@@ -8,6 +8,15 @@ import { Label } from "@/components/ui/label";
 import Footer from "@/components/blocks/footer";
 import { Input } from "@/components/ui/input";
 import CopyButton from "@/components/copy-button";
+import iconVariants from "./iconVariants";
+import { motion } from "motion/react"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 
 // Debounce function
 function debounce<T extends (...args: any[]) => void>(
@@ -27,6 +36,8 @@ export default function Home() {
   // State for search query
   const [searchQuery, setSearchQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
+  // State for sidebar filter
+  const [openSidebarFilter, setOpenSidebarFilter] = useState<boolean>(false);
 
   // State for visible icons (lazy loading)
   const [visibleIcons, setVisibleIcons] = useState<[string, any][]>([]);
@@ -141,77 +152,55 @@ export default function Home() {
     };
   }, [filteredIcons]);
 
-  const iconVariants: { [key: string]: string[] } = {
-    ArrowDown: ["filled", "outlined", "filled-1", "outlined-1"],
-    Sort: ["filled", "outlined", "filled-1", "outlined-1"],
-    AirpodCase: ["filled", "outlined", "filled-1", "outlined-1"],
-    Speaker: ["filled", "outlined", "filled-1", "outlined-1"],
-    Watch: ["filled", "outlined", "filled-r", "outlined-r"],
-    Document: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "filled-3",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-      "outlined-3",
-    ],
-    Brush: ["filled", "filled-1", "outlined", "outlined-1"],
-    Crop: ["filled", "filled-1", "outlined", "outlined-1"],
-    Chat: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-    ],
-    Filter: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-    ],
-    Menu: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-    ],
-    Grid: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "filled-3",
-      "filled-4",
-      "filled-5",
-      "filled-6",
-      "filled-7",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-      "outlined-3",
-      "outlined-4",
-      "outlined-5",
-      "outlined-6",
-      "outlined-7",
-    ],
-  };
-
   // Handle tag selection
+
   const handleTagChange = (tag: string) => {
     setSelectedTags((prev) =>
       prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag],
     );
   };
-
+  const handleSidebarFilter = () => {
+    setOpenSidebarFilter((setOpenSidebarFilter) => !setOpenSidebarFilter);
+  };
   return (
     <div className="dark:bg-zinc-950">
+      {/* sidebar filter checkbox */}
+      {openSidebarFilter && (
+        <div
+          className="bg-opacity-40 fixed inset-0 z-20  md:hidden"
+          onClick={() => setOpenSidebarFilter(false)}
+        />
+      )}
+      <motion.div 
+          // initial={{ left: '-260px' }}
+          animate={{ left: openSidebarFilter ? '0' : '-260px' }}
+          // transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+        className={`fixed top-0 z-90 block h-full w-56 overflow-y-auto px-4 py-5 backdrop-blur-md md:hidden`}
+      >
+        <div className="flex justify-end">
+          <button onClick={() => setOpenSidebarFilter(false)}>
+            <icons.CloseRectangle className="text-zinc-900 dark:text-white" />
+          </button>
+        </div>
+        <div className="h-[90vh] overflow-y-scroll">
+          {allTags.map((tag) => (
+            <div
+              key={tag}
+              className="mt-2 flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
+            >
+              <Checkbox
+                id={`${tag}-1`}
+                checked={selectedTags.includes(tag)}
+                onCheckedChange={() => handleTagChange(tag)}
+              />
+              <Label htmlFor={`${tag}-1`}>
+                {tag} ({tagCounts[tag] || 0})
+              </Label>
+            </div>
+          ))}
+        </div>
+      </motion.div>
+
       {/* Search Input */}
       <div className="sticky top-0 z-10 flex justify-center bg-white py-5 dark:bg-zinc-950">
         <div className="relative w-1/2">
@@ -229,12 +218,49 @@ export default function Home() {
 
       <div className="flex flex-col gap-y-5 p-5 lg:flex-row">
         {/* Filter Section */}
-        <div className="sticky top-16 z-10 h-60 overflow-y-scroll rounded-lg bg-white p-4 lg:top-15 lg:h-full lg:w-1/5 dark:bg-zinc-950">
-          <div className="">
-            icons: {filteredIcons.length}
-            <div className="mt-6">
-              <h4>Tags</h4>
-              <div className="grid gap-y-5">
+        <div className="flex justify-end md:hidden">
+          <button className="flex flex-row-reverse" onClick={handleSidebarFilter}>Filter <icons.Filter/> </button>
+        </div>
+
+        <div className="sticky top-16 z-10 hidden h-40 overflow-y-scroll rounded-lg border bg-white p-4 md:block lg:top-15 lg:h-full lg:w-1/5 dark:bg-zinc-950">
+          <Accordion
+            type="single"
+            collapsible
+            className="md:h-fit md:max-h-[70vh]"
+          >
+            <div className="">
+              icons: {filteredIcons.length}
+              <div className="mt-6">
+                {/* <h4>Tags</h4> */}
+
+                <AccordionItem value="item-1">
+                  <AccordionTrigger>Tags</AccordionTrigger>
+                  <AccordionContent className="overflow-y-scroll">
+                    <div className="grid gap-y-5">
+                      {allTags.map((tag) => (
+                        <div
+                          key={tag}
+                          className="flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
+                        >
+                          {/* <Checkbox
+                            id={`${tag}-1`}
+                            onCheckedChange={() => handleTagChange(tag)}
+                          /> */}
+                          <Checkbox
+                            id={`${tag}-1`}
+                            checked={selectedTags.includes(tag)}
+                            onCheckedChange={() => handleTagChange(tag)}
+                          />
+                          <Label htmlFor={`${tag}-1`}>
+                            {tag} ({tagCounts[tag] || 0})
+                          </Label>
+                        </div>
+                      ))}
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+
+                {/* <div className="grid gap-y-5">
                 {allTags.map((tag) => (
                   <div
                     key={tag}
@@ -249,9 +275,10 @@ export default function Home() {
                     </Label>
                   </div>
                 ))}
+              </div> */}
               </div>
             </div>
-          </div>
+          </Accordion>
         </div>
 
         {/* Icons Grid */}

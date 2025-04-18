@@ -1,18 +1,17 @@
-
-import React from 'react';
+import React from "react";
 
 interface InstagramProps {
   size?: number;
   fillColor?: string;
   className?: string;
-  variants?: 'filled' | 'outlined';
+  variants?: "filled" | "outlined";
 }
 
 const Instagram: React.FC<InstagramProps> = ({
   size = 24,
-  fillColor = 'currentColor',
-  className = '',
-  variants = 'filled'
+  fillColor = "currentColor",
+  className = "",
+  variants = "filled",
 }) => (
   <svg
     width={size}
@@ -22,13 +21,19 @@ const Instagram: React.FC<InstagramProps> = ({
     xmlns="http://www.w3.org/2000/svg"
     className={`fill-${fillColor} ${className}`}
   >
-    {variants === 'filled' ? (
+    {variants === "filled" ? (
       <>
-        <path fill="currentColor" d="M11.84 9.05a2.8 2.8 0 1 0 2.8 2.8 2.79 2.79 0 0 0-2.8-2.8"/><path fill="currentColor" fillRule="evenodd" d="M15.69 2H8a6 6 0 0 0-6 6v7.69a6 6 0 0 0 6 6h7.69a6 6 0 0 0 6-6V8a6 6 0 0 0-6-6m-3.85 14.14a4.3 4.3 0 1 1 .02-8.6 4.3 4.3 0 0 1-.02 8.6m3.735-9.228a1.09 1.09 0 0 0 1.015.668 1.08 1.08 0 0 0 1.08-1.08 1.09 1.09 0 1 0-2.095.412" clipRule="evenodd"/>
+        <path
+          fill="currentColor"
+          d="M6.998 0C3.139 0 0 3.142 0 7.002v10C0 20.861 3.142 24 7.002 24h10C20.861 24 24 20.858 24 16.998v-10C24 3.139 20.858 0 16.998 0zM19 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2m-7 2c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6m0 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8"
+        />
       </>
-    ) : variants === 'outlined' ? (
+    ) : variants === "outlined" ? (
       <>
-        <path fill="currentColor" fillRule="evenodd" d="M8 2h7.7a6 6 0 0 1 6 6v7.7a6 6 0 0 1-6 6H8a6 6 0 0 1-6-6V8a6 6 0 0 1 6-6m12.2 6a4.51 4.51 0 0 0-4.5-4.5H8A4.51 4.51 0 0 0 3.5 8v7.7A4.51 4.51 0 0 0 8 20.2h7.7a4.51 4.51 0 0 0 4.5-4.5z" clipRule="evenodd"/><path fill="currentColor" fillRule="evenodd" d="M7.55 11.85a4.31 4.31 0 0 1 4.3-4.3 4.31 4.31 0 0 1 4.3 4.3 4.3 4.3 0 0 1-8.6 0m7.1 0a2.8 2.8 0 0 0-2.8-2.8 2.81 2.81 0 0 0-2.8 2.8 2.8 2.8 0 1 0 5.6 0" clipRule="evenodd"/><path fill="currentColor" d="M15.51 6.505a1.085 1.085 0 1 1 2.17 0 1.085 1.085 0 0 1-2.17 0"/>
+        <path
+          fill="currentColor"
+          d="M7.057 0C3.183 0 0 3.179 0 7.057v9.886C0 20.817 3.179 24 7.057 24h9.886C20.817 24 24 20.821 24 16.943V7.057C24 3.183 20.821 0 16.943 0zm0 2.182h9.886a4.87 4.87 0 0 1 4.875 4.875v9.886a4.87 4.87 0 0 1-4.875 4.875H7.057a4.87 4.87 0 0 1-4.875-4.875V7.057a4.87 4.87 0 0 1 4.875-4.875m11.386 2.386a.984.984 0 0 0-.989.989c0 .55.44.988.99.988a.983.983 0 0 0 .988-.988.984.984 0 0 0-.989-.989M12 5.455c-3.6 0-6.545 2.944-6.545 6.545S8.399 18.546 12 18.546 18.546 15.6 18.546 12 15.601 5.455 12 5.455m0 2.181A4.345 4.345 0 0 1 16.364 12 4.345 4.345 0 0 1 12 16.364 4.345 4.345 0 0 1 7.636 12 4.345 4.345 0 0 1 12 7.636"
+        />
       </>
     ) : null}
   </svg>
