@@ -9,14 +9,13 @@ import Footer from "@/components/blocks/footer";
 import { Input } from "@/components/ui/input";
 import CopyButton from "@/components/copy-button";
 import iconVariants from "./iconVariants";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
 
 // Debounce function
 function debounce<T extends (...args: any[]) => void>(
@@ -167,14 +166,14 @@ export default function Home() {
       {/* sidebar filter checkbox */}
       {openSidebarFilter && (
         <div
-          className="bg-opacity-40 fixed inset-0 z-20  md:hidden"
+          className="bg-opacity-40 fixed inset-0 z-20 md:hidden"
           onClick={() => setOpenSidebarFilter(false)}
         />
       )}
-      <motion.div 
-          // initial={{ left: '-260px' }}
-          animate={{ left: openSidebarFilter ? '0' : '-260px' }}
-          // transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+      <motion.div
+        initial={{ left: "-260px" }}
+        animate={{ left: openSidebarFilter ? "0" : "-260px" }}
+        transition={{ type: "spring", stiffness: 300, damping: 25 }}
         className={`fixed top-0 z-90 block h-full w-56 overflow-y-auto px-4 py-5 backdrop-blur-md md:hidden`}
       >
         <div className="flex justify-end">
@@ -219,7 +218,12 @@ export default function Home() {
       <div className="flex flex-col gap-y-5 p-5 lg:flex-row">
         {/* Filter Section */}
         <div className="flex justify-end md:hidden">
-          <button className="flex flex-row-reverse" onClick={handleSidebarFilter}>Filter <icons.Filter/> </button>
+          <button
+            className="flex flex-row-reverse"
+            onClick={handleSidebarFilter}
+          >
+            Filter <icons.Filter />{" "}
+          </button>
         </div>
 
         <div className="sticky top-16 z-10 hidden h-40 overflow-y-scroll rounded-lg border bg-white p-4 md:block lg:top-15 lg:h-full lg:w-1/5 dark:bg-zinc-950">
@@ -242,10 +246,6 @@ export default function Home() {
                           key={tag}
                           className="flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
                         >
-                          {/* <Checkbox
-                            id={`${tag}-1`}
-                            onCheckedChange={() => handleTagChange(tag)}
-                          /> */}
                           <Checkbox
                             id={`${tag}-1`}
                             checked={selectedTags.includes(tag)}
@@ -259,23 +259,6 @@ export default function Home() {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-
-                {/* <div className="grid gap-y-5">
-                {allTags.map((tag) => (
-                  <div
-                    key={tag}
-                    className="flex items-center gap-2 [--primary:var(--color-indigo-500)] [--ring:var(--color-indigo-300)] in-[.dark]:[--primary:var(--color-indigo-500)] in-[.dark]:[--ring:var(--color-indigo-900)]"
-                  >
-                    <Checkbox
-                      id={`${tag}-1`}
-                      onCheckedChange={() => handleTagChange(tag)}
-                    />
-                    <Label htmlFor={`${tag}-1`}>
-                      {tag} ({tagCounts[tag] || 0})
-                    </Label>
-                  </div>
-                ))}
-              </div> */}
               </div>
             </div>
           </Accordion>

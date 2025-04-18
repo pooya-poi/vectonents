@@ -2307,13 +2307,13 @@
     {
       "id": 385,
       "name": "Vandar",
-      "tag": [],
+      "tag": ["persian icon", "payment"],
       "category": []
     },
     {
       "id": 386,
       "name": "Visacard",
-      "tag": [],
+      "tag": ["payment"],
       "category": []
     },
     {
@@ -2343,7 +2343,7 @@
     {
       "id": 391,
       "name": "Vuejs",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
@@ -2361,31 +2361,31 @@
     {
       "id": 394,
       "name": "Whatsapp",
-      "tag": [],
+      "tag": ["socialmedia"],
       "category": []
     },
     {
       "id": 395,
       "name": "Whmcs",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
       "id": 396,
       "name": "Wifi",
-      "tag": [],
+      "tag": ["computer"],
       "category": []
     },
     {
       "id": 397,
       "name": "Woocommerce",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
       "id": 398,
       "name": "Wordpress",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
@@ -2397,31 +2397,31 @@
     {
       "id": 400,
       "name": "Xbox",
-      "tag": [],
+      "tag": ["tech"],
       "category": []
     },
     {
       "id": 401,
       "name": "Xcom",
-      "tag": [],
+      "tag": ["socialmedia"],
       "category": []
     },
     {
       "id": 402,
       "name": "Xiaomi",
-      "tag": [],
+      "tag": ["tech"],
       "category": []
     },
     {
       "id": 403,
       "name": "Yarn",
-      "tag": [],
+      "tag": ["programing"],
       "category": []
     },
     {
       "id": 404,
       "name": "Youtube",
-      "tag": [],
+      "tag": ["socialmedia"],
       "category": []
     },
     {
@@ -2433,25 +2433,25 @@
     {
       "id": 406,
       "name": "Zarinpal",
-      "tag": [],
+      "tag": ["persian icon", "payment"],
       "category": []
     },
     {
       "id": 407,
       "name": "Zhaket",
-      "tag": [],
+      "tag": ["persian icon", "web/application"],
       "category": []
     },
     {
       "id": 408,
       "name": "Zibal",
-      "tag": [],
+      "tag": ["persian icon", "payment"],
       "category": []
     },
     {
       "id": 409,
       "name": "Zitel",
-      "tag": [],
+      "tag": ["persian icon", "operator"],
       "category": []
     }
   ]
