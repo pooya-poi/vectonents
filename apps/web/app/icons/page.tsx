@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import Footer from "@/components/blocks/footer";
 import { Input } from "@/components/ui/input";
 import CopyButton from "@/components/copy-button";
+import iconVariants from "./iconVariants";
 
 // Debounce function
 function debounce<T extends (...args: any[]) => void>(
@@ -141,67 +142,74 @@ export default function Home() {
     };
   }, [filteredIcons]);
 
-  const iconVariants: { [key: string]: string[] } = {
-    ArrowDown: ["filled", "outlined", "filled-1", "outlined-1"],
-    Sort: ["filled", "outlined", "filled-1", "outlined-1"],
-    AirpodCase: ["filled", "outlined", "filled-1", "outlined-1"],
-    Speaker: ["filled", "outlined", "filled-1", "outlined-1"],
-    Watch: ["filled", "outlined", "filled-r", "outlined-r"],
-    Document: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "filled-3",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-      "outlined-3",
-    ],
-    Brush: ["filled", "filled-1", "outlined", "outlined-1"],
-    Crop: ["filled", "filled-1", "outlined", "outlined-1"],
-    Chat: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-    ],
-    Filter: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-    ],
-    Menu: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-    ],
-    Grid: [
-      "filled",
-      "filled-1",
-      "filled-2",
-      "filled-3",
-      "filled-4",
-      "filled-5",
-      "filled-6",
-      "filled-7",
-      "outlined",
-      "outlined-1",
-      "outlined-2",
-      "outlined-3",
-      "outlined-4",
-      "outlined-5",
-      "outlined-6",
-      "outlined-7",
-    ],
-  };
+//   const iconVariants: { [key: string]: string[] } = {
+//     ArrowDown: ["filled", "outlined", "filled-1", "outlined-1"],
+//     Asiatech : [''],
+//     Aws : [''],
+//     Ayandeh  : [''],
+  
+//     SingleVariants :[
+// 'Azki'
+//     ],
+//     Sort: ["filled", "outlined", "filled-1", "outlined-1"],
+//     AirpodCase: ["filled", "outlined", "filled-1", "outlined-1"],
+//     Speaker: ["filled", "outlined", "filled-1", "outlined-1"],
+//     Watch: ["filled", "outlined", "filled-r", "outlined-r"],
+//     Document: [
+//       "filled",
+//       "filled-1",
+//       "filled-2",
+//       "filled-3",
+//       "outlined",
+//       "outlined-1",
+//       "outlined-2",
+//       "outlined-3",
+//     ],
+//     Brush: ["filled", "filled-1", "outlined", "outlined-1"],
+//     Crop: ["filled", "filled-1", "outlined", "outlined-1"],
+//     Chat: [
+//       "filled",
+//       "filled-1",
+//       "filled-2",
+//       "outlined",
+//       "outlined-1",
+//       "outlined-2",
+//     ],
+//     Filter: [
+//       "filled",
+//       "filled-1",
+//       "filled-2",
+//       "outlined",
+//       "outlined-1",
+//       "outlined-2",
+//     ],
+//     Menu: [
+//       "filled",
+//       "filled-1",
+//       "filled-2",
+//       "outlined",
+//       "outlined-1",
+//       "outlined-2",
+//     ],
+//     Grid: [
+//       "filled",
+//       "filled-1",
+//       "filled-2",
+//       "filled-3",
+//       "filled-4",
+//       "filled-5",
+//       "filled-6",
+//       "filled-7",
+//       "outlined",
+//       "outlined-1",
+//       "outlined-2",
+//       "outlined-3",
+//       "outlined-4",
+//       "outlined-5",
+//       "outlined-6",
+//       "outlined-7",
+//     ],
+//   };
 
   // Handle tag selection
   const handleTagChange = (tag: string) => {
@@ -277,6 +285,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-4">
+                      
                       {(iconVariants[name] || ["filled", "outlined"]).map(
                         (variant) => {
                           const IconComponent = icons[
