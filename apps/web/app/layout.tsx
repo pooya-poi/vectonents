@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "Vectonents: Free React Icon Library (Lightweight SVG)",
     description:
       "Icon component for React. Works with Next.js, Tailwind, and TypeScript.",
-    url: "https://vectonents-web.vercel.app/home",
+    url: "https://vectonents-web.vercel.app",
     siteName: "Vectonents",
 
     locale: "en_US",
