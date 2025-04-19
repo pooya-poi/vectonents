@@ -26,6 +26,7 @@
     "@repo/ui": "workspace:*",
     "@tabler/icons-react": "^3.31.0",
     "@tailwindcss/postcss": "^4.1.4",
+    "@vercel/analytics": "^1.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "colorjs.io": "^0.5.2",

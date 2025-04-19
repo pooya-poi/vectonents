@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/provider/theme-provider";
 import { Roboto, Vazirmatn } from "next/font/google";
 import BottomDock from "@/components/widgets/bottom-dock";
 import { openGraphImage } from './shared-metadata'
+import { Analytics } from "@vercel/analytics/react"
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -98,6 +99,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Analytics />
           <BottomDock />
         </ThemeProvider>
       </body>
