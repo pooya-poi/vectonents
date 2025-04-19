@@ -35,29 +35,7 @@ export const metadata: Metadata = {
     "vectonents github",
     "vectonents documentation",
   ],
-  openGraph: {
-    title: "Vectonents: Free React Icon Library (Lightweight SVG)",
-    description:
-      "Icon component for React. Works with Next.js, Tailwind, and TypeScript.",
-    url: "https://vectonents-web.vercel.app/",
-    siteName: "My Website",
-    images: [
-      {
-        url: "https://vectonents-web.vercel.app/images/og-image.png",
-        width: 1200,
-        height: 600,
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Vectonents: The Lightweight React Icon Library",
-    description:
-      "Free, customizable SVG icons for React. Perfect for Next.js projects.",
-    images: ["https://vectonents-web.vercel.app/images/og-image.png"],
-  },
+ 
 };
 
 export default function Home() {
