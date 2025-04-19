@@ -1,4 +1,4 @@
-import { Heart } from "@pooya-poi/vectonents";
+import { Github, Heart, Npm } from "@pooya-poi/vectonents";
 import Link from "next/link";
 
 const links = [
@@ -36,8 +36,15 @@ const Footer: React.FC = () => (
       </ul>
     </div>
     <div className="order-3 flex items-center justify-center gap-x-5">
-      <Link target="_blank" href="https://www.npmjs.com/package/@pooya-poi/vectonents?activeTab=readme">npm</Link>
-      <Link target="_blank" href="https://github.com/pooya-poi/vectonents">github</Link>
+      <Link
+        target="_blank"
+        href="https://www.npmjs.com/package/@pooya-poi/vectonents?activeTab=readme"
+      >
+        <Npm className="w-12 text-amber-400" />
+      </Link>
+      <Link target="_blank" href="https://github.com/pooya-poi/vectonents">
+        <Github size={45} />
+      </Link>
     </div>
   </footer>
 );
