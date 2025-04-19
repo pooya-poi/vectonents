@@ -1,0 +1,1 @@
+export const openGraphImage = { images: ['https://vectonents-web.vercel.app/images/og-image.png'] }
