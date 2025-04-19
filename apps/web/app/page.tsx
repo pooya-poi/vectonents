@@ -4,7 +4,7 @@ import WhySection from "@/components/blocks/why-section";
 import IconSampleSection from "@/components/blocks/icon-sample-section";
 import Footer from "@/components/blocks/footer";
 import HeroSection from "@/components/blocks/hero-section";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
 
 // export const metadata: Metadata = {
