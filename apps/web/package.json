@@ -11,7 +11,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@pooya-poi/vectonents": "^0.2.5",
+    "@pooya-poi/vectonents": "workspace:*",
     "@radix-ui/react-accordion": "^1.2.7",
     "@radix-ui/react-checkbox": "^1.2.2",
     "@radix-ui/react-dropdown-menu": "^2.1.10",
