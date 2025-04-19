@@ -60,6 +60,7 @@ export const metadata: Metadata = {
     "vectonents github",
     "vectonents documentation",
   ],
+  metadataBase: new URL("https://vectonents-web.vercel.app"),
   openGraph: {
     title: "Vectonents: Free React Icon Library (Lightweight SVG)",
     description:
@@ -79,7 +80,6 @@ export const metadata: Metadata = {
     images: ["https://vectonents-web.vercel.app/images/og-image.png"],
   },
 };
-console.log("*****metadata", metadata);
 
 export default function RootLayout({
   children,
