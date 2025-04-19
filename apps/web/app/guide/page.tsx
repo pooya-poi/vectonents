@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { ScriptCopyBtn } from "@/components/magicui/script-copy-btn";
 import {
   Card,
@@ -10,6 +10,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Iconicool from "../../public/images/iconicool-figma.png";
 import PersianBrands from "../../public/images/400-persian-brands.png";
+import type { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Vectonents | Guide page',
+};
 
 export default function GuidePage() {
   const customCommandMap = {
