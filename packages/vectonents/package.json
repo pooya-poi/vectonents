@@ -1,6 +1,6 @@
 {
   "name": "@pooya-poi/vectonents",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "A set of Svg icon components for React",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -8,7 +8,8 @@
   "scripts": {
     "bundle": "tsup",
     "clean": "rm -rf dist",
-    "build": "node ./src/components/generator.js && pnpm run bundle"
+    "build": "node ./src/components/generator.js && pnpm run bundle",
+    "publish:npm": "npm publish --access public"
   },
   "dependencies": {
     "react": "19.0.0"
