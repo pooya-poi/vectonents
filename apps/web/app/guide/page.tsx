@@ -10,10 +10,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Iconicool from "../../public/images/iconicool-figma.png";
 import PersianBrands from "../../public/images/400-persian-brands.png";
-import type { Metadata } from 'next';
- 
+import type { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'Vectonents | Guide page',
+  title: "Vectonents | Guide page",
   description:
     "Free and Open-source React icons (SVG). Optimized for Next.js, TypeScript & Tailwind CSS. Perfect for developers building modern web apps. An alternative to Lucide.",
   keywords: [
@@ -66,7 +66,20 @@ export default function GuidePage() {
           To use Vectonent, you can install the package using pnpm, yarn or
           other package manager. Once installed, you can import the icons you
           need and use them in your project. The icons are available in two
-          variants, including outliend and filled.
+          variants, including outliend and filled. The list of icons available{" "}
+          <Link className="font-bold text-indigo-500 underline" href="icons">
+            here
+          </Link>
+          <br />
+          Just import icon and use it like this example:
+          <pre className="border p-2 mt-2">
+            {`import { Github, Heart, Npm } from "@pooya-poi/vectonents";
+
+        <Github />
+        <Heart variants={'outlined'} />
+        <Npm size={45} className='text-red-400' />
+          `}
+          </pre>
         </CardContent>
         <CardFooter>
           <ScriptCopyBtn

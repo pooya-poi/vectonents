@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => (
     actions={[
       {
         label: "Get Start 🚀",
-        href: "#",
+        href: "/guide",
         variant: "outline",
       },
     ]}
