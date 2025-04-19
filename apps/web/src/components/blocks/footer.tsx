@@ -24,7 +24,7 @@ const Footer: React.FC = () => (
         <Heart variants="filled" size={16} className="mx-1 text-rose-600" />
         by vectonents
       </p>
-      <p>All rights reserved for Vectonents © {new Date().getFullYear()}</p>
+      <p>All rights reserved for Vectonents - pooya © {new Date().getFullYear()}</p>
     </div>
     <div className="flex items-center justify-center gap-x-5">
       <ul className="flex items-center justify-center gap-x-5">
