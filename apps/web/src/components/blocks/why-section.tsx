@@ -1,3 +1,4 @@
+'use client'
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "../aceternity/canvas-reveal-effect";
 import {

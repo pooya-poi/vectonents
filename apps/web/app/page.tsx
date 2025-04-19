@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import WhySection from "@/components/blocks/why-section";
 import IconSampleSection from "@/components/blocks/icon-sample-section";
