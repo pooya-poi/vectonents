@@ -16,34 +16,37 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Metadata } from "next";
+// TODO: fix the meta tag, it cause error because its 'use client'
 
-export const metadata: Metadata = {
-  title: 'Vectonents | Icons ',
-  description:
-    "Free and Open-source React icons (SVG). Optimized for Next.js, TypeScript & Tailwind CSS. Perfect for developers building modern web apps. An alternative to Lucide.",
-  keywords: [
-    "react icons",
-    "react icons component",
-    "free react icons",
-    "svg icons react",
-    "react icon library",
-    "fill icons",
-    "outline icons",
-    "persian icons",
-    "multi variant icon",
 
-    "vectonents vs lucide",
-    "vectonents vs react-icons",
-    "alternative to font awesome",
+// import { Metadata } from "next";
 
-    "lightweight react icons",
-    "customizable svg icons",
-    "typescript react icons",
-    "next.js icon library",
-    "tailwind css icons",
-  ],
-};
+// export const metadata: Metadata = {
+//   title: 'Vectonents | Icons ',
+//   description:
+//     "Free and Open-source React icons (SVG). Optimized for Next.js, TypeScript & Tailwind CSS. Perfect for developers building modern web apps. An alternative to Lucide.",
+//   keywords: [
+//     "react icons",
+//     "react icons component",
+//     "free react icons",
+//     "svg icons react",
+//     "react icon library",
+//     "fill icons",
+//     "outline icons",
+//     "persian icons",
+//     "multi variant icon",
+
+//     "vectonents vs lucide",
+//     "vectonents vs react-icons",
+//     "alternative to font awesome",
+
+//     "lightweight react icons",
+//     "customizable svg icons",
+//     "typescript react icons",
+//     "next.js icon library",
+//     "tailwind css icons",
+//   ],
+// };
 
 
 
