@@ -4,8 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/provider/theme-provider";
 import { Roboto, Vazirmatn } from "next/font/google";
 import BottomDock from "@/components/widgets/bottom-dock";
-import { openGraphImage } from './shared-metadata'
-import { Analytics } from "@vercel/analytics/react"
+import { openGraphImage } from "./shared-metadata";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -61,15 +61,15 @@ export const metadata: Metadata = {
     "vectonents documentation",
   ],
   openGraph: {
-    ...openGraphImage,
     title: "Vectonents: Free React Icon Library (Lightweight SVG)",
     description:
       "Icon component for React. Works with Next.js, Tailwind, and TypeScript.",
-    url: "https://vectonents-web.vercel.app/",
-    siteName: "My Website",
+    url: "https://vectonents-web.vercel.app/home",
+    siteName: "Vectonents",
 
     locale: "en_US",
     type: "website",
+    ...openGraphImage,
   },
   twitter: {
     card: "summary_large_image",
@@ -79,6 +79,7 @@ export const metadata: Metadata = {
     images: ["https://vectonents-web.vercel.app/images/og-image.png"],
   },
 };
+console.log("*****metadata", metadata);
 
 export default function RootLayout({
   children,
