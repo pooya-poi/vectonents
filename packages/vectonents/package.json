@@ -1,10 +1,11 @@
 {
   "name": "@pooya-poi/vectonents",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A set of Svg icon components for React",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "keywords": ["react icons","react icons component","svg icons react","react icon library","persian icons"],
   "scripts": {
     "bundle": "tsup",
     "clean": "rm -rf dist",
